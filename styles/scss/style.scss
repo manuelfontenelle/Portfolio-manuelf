@@ -1,14 +1,14 @@
 @import "mixins";
 
-$primary-color: #ff7f00;
-$secondary-color: #79cf00;
-$third-color: #141414;
+$primary-color: #ff7b54;
+$secondary-color: #27e193;
+$third-color: #222222;
 
 .testttt {
 	color: $primary-color;
 }
 
-input:checked ~ .dot {
-	transform: translateX(100%);
-	/* background-color: #132b50; */
-}
+// input:checked ~ .dot {
+// 	transform: translateX(100%);
+// 	/* background-color: #132b50; */
+// }

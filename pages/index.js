@@ -19,7 +19,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
-			<main className=" dark:bg-black bg-[#FF7B54] h-[100vh] pt-8">
+			<main className=" dark:bg-[#222222] bg-[#27e193] h-[100vh] pt-8">
 				<div className="container">
 					<NavBar />
 				</div>
