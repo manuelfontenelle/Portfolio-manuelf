@@ -12,13 +12,13 @@ const NavBar = () => {
 	useEffect(() => {}, [])
 
 	return (
-		<nav className=" border-b-[1px] border-[#DCDAD9]  pb-4">
+		<nav className=" border-b-[1px] border-[#213B86]  dark:border-[#DCDAD9] pb-4">
 			<div className="flex items-center justify-between dark:text-[#DCDAD9] text-[#213B86]">
 				<span className=" font-bold text-sm uppercase font-Inter ">
 					Manuel Fontenelle
 				</span>
 				<div className="rightPart flex items-center gap-5">
-					<div id="toggle-darkmode-container" className="w-12 h-6 ">
+					<div id="toggle-darkmode-container" className="w-11 h-5 ">
 						<input
 							type="checkbox"
 							id="dark-mode-toggle"
@@ -31,8 +31,8 @@ const NavBar = () => {
 						>
 							<span className="inline dark:hidden">
 								<svg
-									width="15"
-									height="15"
+									width="11"
+									height="11"
 									viewBox="0 0 13 15"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +46,11 @@ const NavBar = () => {
 									/>
 								</svg>
 							</span>
-							<span className="w-4 h-4 mt-[-1px] rounded-full bg-[#213B86] dark:bg-[#DCDAD9] block float-right dark:float-left"></span>
+							<span className="w-3 h-3 mt-[-1px] rounded-full bg-[#213B86] dark:bg-[#DCDAD9] block float-right dark:float-left"></span>
 							<span className="hidden dark:inline">
 								<svg
-									width="15"
-									height="15"
+									width="11"
+									height="11"
 									viewBox="0 0 15 15"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"

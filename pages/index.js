@@ -19,10 +19,13 @@ export default function Home() {
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
-			<main className=" dark:bg-[#222222] bg-[#27e193] h-[100vh] pt-8">
+			<main className=" dark:bg-[#222222] bg-[#27e193] h-[100vh] pt-8 overflow-x-hidden">
 				<div className="container">
 					<NavBar />
 				</div>
+				<h1 className="font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase ml-[-5%] leading-none whitespace-nowrap tracking-[-0.03em]">
+					Web developer
+				</h1>
 			</main>
 		</>
 	)
