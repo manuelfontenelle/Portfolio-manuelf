@@ -26,7 +26,7 @@ export default function Home() {
 					<NavBar />
 				</div>
 
-				<section id="intro" className="pb-16">
+				<section id="intro" className=" pb-16 sm:h-[92vh] sm:pb-0">
 					<Intro />
 				</section>
 				<section

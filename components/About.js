@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
+import Competence from "./Competence"
 
 const About = () => {
 	useEffect(() => {}, [])
@@ -10,7 +11,7 @@ const About = () => {
 	return (
 		<>
 			<div>
-				<h2 className=" flex justify-center items-center font-SofiaSans text-[14.9vw] text-[#27e193] dark:text-[#222222] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]">
+				<h2 className=" flex justify-center items-center font-SofiaSans text-[14.9vw] text-[#DCDAD9] dark:text-[#222222] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]">
 					About
 					<span className="">
 						<svg
@@ -19,7 +20,7 @@ const About = () => {
 							viewBox="0 0 342 200"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
-							className="fill-[#27e193] dark:fill-[#222222] svg-sphere"
+							className="fill-[#DCDAD9] dark:fill-[#222222] svg-sphere"
 						>
 							<path
 								d="M170.996 199.06C125.68 199.06 83.0168 188.925 50.8773 170.514C18.0688 151.729 0 126.52 0 99.5299C0 72.5396 18.0688 47.3382 50.8773 28.546C83.0246 10.135 125.688 0 170.996 0C216.304 0 258.975 10.135 291.123 28.546C323.931 47.3304 342 72.5396 342 99.5299C342 126.52 323.931 151.722 291.123 170.514C258.975 188.925 216.312 199.06 170.996 199.06ZM170.996 7.5293C126.971 7.5293 85.6381 17.3143 54.6108 35.0797C24.2447 52.4718 7.52153 75.3553 7.52153 99.5299C7.52153 123.705 24.2447 146.596 54.6108 163.98C85.6381 181.746 126.971 191.531 170.996 191.531C215.021 191.531 256.354 181.746 287.381 163.98C317.748 146.588 334.471 123.705 334.471 99.5299C334.471 75.3553 317.748 52.464 287.381 35.0797C256.354 17.3143 215.021 7.5293 170.996 7.5293Z"
@@ -54,14 +55,50 @@ const About = () => {
 					about
 				</h2>
 				<div className="container">
-					<div className="flex justify-between">
-						<div className="left  pr-9 font-Inter font-medium text-[#27e193]  dark:text-[#222222]">
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
+							About me
+						</div>
+						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base ">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 							enim ad minim veniam, quis nostrud exercitation ullamco. Lorem
 							ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 							minim veniam, quis nostrud exercitation ullamco.
+						</div>
+					</div>
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
+							Here's what i do
+						</div>
+						<div className="sm:w-[48%] gap-5 flex justify-between flex-wrap">
+							<Competence />
+							<Competence />
+							<Competence />
+							<Competence />
+						</div>
+					</div>
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
+							Tools
+						</div>
+						<div className=" sm:w-[48%]  font-Inter  font-bold  text-2xl sm:text-5xl flex flex-col sm:gap-1">
+							<span>JAVASCRIPT</span>
+							<span>HTML</span>
+							<span>CSS / SCSS</span>
+							<span>REACT JS</span>
+							<span>NEXT JS</span>
+							<span>GSAP</span>
+							<span>STAPI</span>
+							<span>THREEJS</span>
+							<span>WORDPRESS</span>
+							<span>FIGMA</span>
+							<span>VERCEL</span>
+							<span>NETLIFY</span>
+							<span>HEROKU</span>
+							<span>VUE JS</span>
+							<span>PHP</span>
 						</div>
 					</div>
 				</div>
