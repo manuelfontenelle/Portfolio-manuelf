@@ -3,6 +3,8 @@ import Image from "next/image"
 import { Inter } from "@next/font/google"
 import styles from "../styles/Home.module.css"
 import NavBar from "../components/NavBar"
+import Intro from "../components/Intro"
+import About from "../components/About"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -23,9 +25,16 @@ export default function Home() {
 				<div className="container">
 					<NavBar />
 				</div>
-				<h1 className="font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase ml-[-5%] leading-none whitespace-nowrap tracking-[-0.03em]">
-					Web developer
-				</h1>
+
+				<section id="intro" className="pb-16">
+					<Intro />
+				</section>
+				<section
+					id="about"
+					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
+				>
+					<About />
+				</section>
 			</main>
 		</>
 	)

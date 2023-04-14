@@ -12,12 +12,12 @@ const NavBar = () => {
 	useEffect(() => {}, [])
 
 	return (
-		<nav className=" border-b-[1px] border-[#213B86]  dark:border-[#DCDAD9] pb-4">
+		<nav className="border-b-[1px] border-[#213B86]  dark:border-[#DCDAD9] pb-4">
 			<div className="flex items-center justify-between dark:text-[#DCDAD9] text-[#213B86]">
 				<span className=" font-bold text-sm uppercase font-Inter ">
 					Manuel Fontenelle
 				</span>
-				<div className="rightPart flex items-center gap-5">
+				<div className="rightPart flex items-center gap-5 z">
 					<div id="toggle-darkmode-container" className="w-11 h-5 ">
 						<input
 							type="checkbox"
