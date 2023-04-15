@@ -15,7 +15,7 @@ const Intro = () => {
 				</h2>
 				<div className="container">
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
-						<div className=" sm:w-[48%] sm:pr-9 font-Inter text-sm sm:text-base  font-medium text-[#213B86]  dark:text-[#DCDAD9]">
+						<div className=" sm:w-[48%]  font-Inter text-sm sm:text-base  font-medium text-[#213B86]  dark:text-[#DCDAD9]">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 							enim ad minim veniam, quis nostrud exercitation ullamco. Lorem

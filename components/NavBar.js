@@ -14,7 +14,7 @@ const NavBar = () => {
 	return (
 		<nav className="border-b-[1px] border-[#213B86]  dark:border-[#DCDAD9] pb-4">
 			<div className="flex items-center justify-between dark:text-[#DCDAD9] text-[#213B86]">
-				<h1 className=" font-bold text-sm uppercase font-Inter ">
+				<h1 className="  font-bold  text-sm uppercase font-Inter  leading-4">
 					Manuel Fontenelle
 				</h1>
 				<div className="rightPart flex items-center gap-5 z">
