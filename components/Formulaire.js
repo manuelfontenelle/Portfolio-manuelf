@@ -206,13 +206,26 @@ const Formulaire = () => {
 						</span>
 					</button>
 					<div className="hidden" id="loader">
-						<div className="mx-auto flex justify-center">
+						<div className="mx-auto flex justify-center dark:hidden">
 							<ThreeDots
 								id="loaderId"
 								height="80"
 								width="80"
 								radius="9"
-								color="#ff7f00"
+								color="#1CCBAD"
+								ariaLabel="three-dots-loading"
+								wrapperStyle={{}}
+								wrapperClassName=""
+								visible={true}
+							/>
+						</div>
+						<div className="mx-auto justify-center hidden dark:flex">
+							<ThreeDots
+								id="loaderId"
+								height="80"
+								width="80"
+								radius="9"
+								color="#222222"
 								ariaLabel="three-dots-loading"
 								wrapperStyle={{}}
 								wrapperClassName=""
