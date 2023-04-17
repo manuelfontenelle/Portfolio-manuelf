@@ -54,15 +54,15 @@ const Projects = () => {
 				<div className="container">
 					<div className="flex flex-col gap-14">
 						<div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between items-end mt-5 ">
-							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] rounded-md"></div>
-							<div className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] rounded-md"></div>
+							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"></div>
+							<div className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"></div>
 						</div>
 						<div className="flex flex-row justify-center items-end ">
-							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] rounded-md"></div>
+							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"></div>
 						</div>
 						<div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between items-end ">
-							<div className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] rounded-md md:mb-[-6rem;]"></div>
-							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] rounded-md"></div>
+							<div className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md md:mb-[-6rem;]"></div>
+							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"></div>
 						</div>
 					</div>
 				</div>

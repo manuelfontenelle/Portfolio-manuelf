@@ -57,13 +57,14 @@ const Contact = () => {
 			</div>
 			<div className="container">
 				<div className="flex justify-between items-end mt-10 flex-col-reverse sm:flex-row gap-10 sm:gap-0">
-					<div className="sm:w-[48%] ">
+					<div className="sm:w-[48%] flex justify-start  items-end h-fit">
 						<svg
 							width="513"
 							height="513"
 							viewBox="0 0 513 513"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
+							className="svg-personnage"
 						>
 							<path
 								d="M511.439 83.0806L348.309 83.4606C348.309 83.4606 338.399 17.6506 389.499 34.8306C389.499 34.8306 394.209 6.27061 421.829 2.35061C434.079 0.62061 446.499 4.36061 455.399 14.3706C460.409 20.0106 464.549 27.7006 464.959 37.8306C464.959 37.8306 513.579 13.7506 511.449 83.0706L511.439 83.0806Z"
@@ -285,7 +286,16 @@ const Contact = () => {
 							/>
 						</svg>
 					</div>
-					<div className="sm:w-[48%] ">
+					<div className="sm:w-[48%] text-[#DCDAD9] dark:text-[#222222] ">
+						<h3 className="font-SofiaSans text-5xl uppercase tracking-[-0.03em]">
+							Lorem ipsum dolor sit amet, consectetur.
+						</h3>
+						<p className="font-Inter font-medium mt-2 text-sm sm:text-base ">
+							Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit
+							anim id est laborum.
+						</p>
 						<Formulaire />
 					</div>
 				</div>

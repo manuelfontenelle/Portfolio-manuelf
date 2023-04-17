@@ -21,3 +21,14 @@ $third-color: #222222;
 		margin: -15px 30px 0 30px;
 	}
 }
+
+.svg-personnage {
+	width: 100%;
+	@include sm {
+		width: auto;
+	}
+}
+
+.svg-arrow {
+	width: 50%;
+}
