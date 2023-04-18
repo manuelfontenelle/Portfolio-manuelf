@@ -7,6 +7,8 @@ import Intro from "../components/Intro"
 import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
+import Footer from "../components/Footer"
+import BackToTop from "../components/BackToTop"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -23,8 +25,8 @@ export default function Home() {
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
-			<main className=" dark:bg-[#222222] bg-[#27e193] h-[100vh] overflow-x-hidden">
-				<section id="intro" className="pt-6 pb-8 sm:h-[100vh] sm:pb-0">
+			<main className=" dark:bg-[#222222] bg-[#27e193]  h-[100vh] overflow-x-hidden ">
+				<section id="intro" className="pt-6 pb-8  sm:pb-16">
 					<div className="container">
 						<NavBar />
 					</div>
@@ -47,6 +49,17 @@ export default function Home() {
 					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
 				>
 					<Contact />
+				</section>
+				<section
+					id="Footer"
+					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86]"
+				>
+					<div className="container">
+						<Footer />
+					</div>
+				</section>
+				<section id="BackToTop" className="dark:bg-[#DCDAD9] bg-[#213B86] ">
+					<BackToTop />
 				</section>
 			</main>
 		</>
