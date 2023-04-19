@@ -26,7 +26,7 @@ $third-color: #222222;
 	height: 100%; /* aspect ratio */
 	margin: -2px 10px 0 10px;
 	@include sm {
-		margin: -5px 15px 0 15px;
+		margin: -3px 15px 0 15px;
 	}
 }
 
@@ -39,4 +39,42 @@ $third-color: #222222;
 
 .svg-arrow {
 	width: 50%;
+}
+
+.linkProject {
+	.arrow-color {
+		transition: all ease-out;
+		fill: #213b86;
+	}
+	.arrow-color-dark {
+		transition: all ease-out;
+		fill: #dcdad9;
+	}
+	&:hover {
+		.arrow-color {
+			fill: #101d43;
+		}
+		.arrow-color-dark {
+			fill: #9ca3af;
+		}
+	}
+}
+
+.linkForm {
+	.arrow-color {
+		transition: all ease-out;
+		fill: #bac8ee;
+	}
+	.arrow-color-dark {
+		transition: all ease-out;
+		fill: #9ca3af;
+	}
+	&:hover {
+		.arrow-color {
+			fill: #27e193;
+		}
+		.arrow-color-dark {
+			fill: #222222;
+		}
+	}
 }

@@ -23,7 +23,7 @@ const Intro = () => {
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 							minim veniam, quis nostrud exercitation ullamco.
 						</div>
-						<div className="bg-slate-200 h-[400px] sm:w-[48%]  sm:h-[750px]"></div>
+						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px]"></div>
 					</div>
 				</div>
 			</div>
