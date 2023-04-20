@@ -30,7 +30,7 @@ const About = () => {
 					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="w-[50%] text-left uppercase text-[#A8A3A0]">
-								<span>Rôle</span>
+								<span>Role</span>
 							</div>
 							<div className="w-[50%] text-left">
 								<span>
@@ -53,7 +53,7 @@ const About = () => {
 					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="w-[50%] text-left uppercase text-[#A8A3A0]">
-								<span>Pays</span>
+								<span>Country</span>
 							</div>
 							<div className="w-[50%] text-left">
 								<span>Canada</span>

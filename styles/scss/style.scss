@@ -45,17 +45,16 @@ $third-color: #222222;
 	.arrow-color {
 		transition: all ease-out;
 		fill: #213b86;
-	}
-	.arrow-color-dark {
-		transition: all ease-out;
-		fill: #dcdad9;
+		&-dark {
+			fill: #dcdad9;
+		}
 	}
 	&:hover {
 		.arrow-color {
 			fill: #101d43;
-		}
-		.arrow-color-dark {
-			fill: #9ca3af;
+			&-dark {
+				fill: #9ca3af;
+			}
 		}
 	}
 }
@@ -64,23 +63,26 @@ $third-color: #222222;
 	.arrow-color {
 		transition: all ease-out;
 		fill: #bac8ee;
-	}
-	.arrow-color-dark {
-		transition: all ease-out;
-		fill: #9ca3af;
+		&-dark {
+			fill: #9ca3af;
+		}
 	}
 	&:hover {
 		.arrow-color {
 			fill: #27e193;
-		}
-		.arrow-color-dark {
-			fill: #222222;
+			&-dark {
+				fill: #222222;
+			}
 		}
 	}
 }
 
-.textBorder {
+.prevBtn {
 	-webkit-text-stroke: 2px #dcdad9;
 	text-stroke: 2px #dcdad9;
-	// color: red !important;
+
+	&--Dark {
+		-webkit-text-stroke: 2px #222222;
+		text-stroke: 2px #222222;
+	}
 }
