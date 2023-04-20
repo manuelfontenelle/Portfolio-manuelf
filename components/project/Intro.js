@@ -61,7 +61,7 @@ const Intro = () => {
 							</a>
 						</div>
 					</div>
-					<div className="imgIntro h-[675px] w-full bg-[#213B86] mt-5 rounded-md"></div>
+					<div className=" h-[675px] w-full bg-[#213B86] mt-5 rounded-md"></div>
 				</div>
 			</div>
 		</>

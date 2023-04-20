@@ -78,3 +78,9 @@ $third-color: #222222;
 		}
 	}
 }
+
+.textBorder {
+	-webkit-text-stroke: 2px #dcdad9;
+	text-stroke: 2px #dcdad9;
+	// color: red !important;
+}

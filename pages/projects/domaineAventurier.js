@@ -4,6 +4,9 @@ import { Inter } from "@next/font/google"
 import styles from "/styles/Home.module.css"
 import NavBar from "/components/NavBar"
 import Intro from "/components/project/Intro"
+import About from "../../components/project/About"
+import Gallery from "../../components/project/Gallery"
+import NavProject from "../../components/project/NavProject"
 
 import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
@@ -24,17 +27,33 @@ export default function DomaineAventurier() {
 			</Head>
 
 			<main className=" dark:bg-[#222222] bg-[#27e193] overflow-x-hidden ">
-				<section id="intro" className="pt-6 pb-8  sm:pb-16">
+				<section id="introProject" className="pt-6 pb-8  sm:pb-16">
 					<div className="container">
 						<NavBar />
 					</div>
 					<Intro />
 				</section>
+				<section
+					id="aboutProject"
+					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
+				>
+					<About />
+				</section>
+				<section
+					id="gallery"
+					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
+				>
+					<Gallery />
+				</section>
 
 				<section
-					id="Footer"
-					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86]"
+					id="navProject"
+					className=" pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
 				>
+					<NavProject />
+				</section>
+
+				<section id="Footer" className="pb-16  dark:bg-[#DCDAD9] bg-[#213B86]">
 					<div className="container">
 						<Footer />
 					</div>
