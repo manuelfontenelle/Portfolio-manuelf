@@ -11,30 +11,36 @@ const NavProject = () => {
 		<>
 			<div>
 				<div className="container">
-					<div className="flex justify-between h-[350px] text-center border-t-[1px] border-[#DCDAD9] dark:border-[#222222] text-xl uppercase font-regular mt-10 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row">
-						<div className="flex items-center justify-center sm:flex-1  border-r-[1px] border-[#DCDAD9] dark:border-[#222222] ">
-							<div className="flex flex-col items-start">
-								<span className="font-SofiaSans text-9xl leading-none text-transparent textBorder tracking-[-0.03em] prevBtn dark:hidden">
+					<div className="flex justify-between h-[135px] md:h-[350px] text-center border-t-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] text-xl uppercase font-regular mt-10 text-[#DCDAD9]  dark:text-[#222222] flex-row">
+						<div className="flex items-center justify-center w-[50%]  border-r-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] ">
+							<a
+								href="#"
+								className="flex flex-col items-start text-white hover:text-[#27e193] hover:textBorder transition-all ease-in-out prevBtnContainer"
+							>
+								<span className="font-SofiaSans  md:text-9xl leading-none text-transparent textBorder tracking-[-0.03em] prevBtn dark:hidden">
 									Prev
 								</span>
-								<span className="font-SofiaSans text-9xl leading-none text-transparent textBorder tracking-[-0.03em] prevBtn--Dark hidden dark:block">
+								<span className="font-SofiaSans  md:text-9xl leading-none text-transparent textBorder tracking-[-0.03em] prevBtn--Dark hidden dark:block">
 									Prev
 								</span>
-								<span className="font-Inter font-black text-3xl mt-[-20px] ml-1">
+								<span className="font-Inter font-black text-xs md:text-3xl mt-[-5px] md:mt-[-20px] ml-1">
 									Project
 								</span>
-							</div>
+							</a>
 						</div>
-						<div className="flex items-center justify-center text-center sm:flex-1 ">
-							<div className="flex flex-col  items-start">
-								<span className="font-SofiaSans text-9xl leading-none tracking-[-0.03em]">
+						<div className="flex items-center justify-center text-center w-[50%]">
+							<a
+								href="#"
+								className="flex flex-col  items-start text-white hover:text-[#27e193] transition-all ease-in-out"
+							>
+								<span className="font-SofiaSans text-4xl md:text-9xl leading-none tracking-[-0.03em]">
 									Next
 								</span>
 
-								<span className="font-Inter font-black text-3xl mt-[-20px] ml-1">
+								<span className="font-Inter font-black text-xs md:text-3xl mt-[-5px] md:mt-[-20px] ml-1">
 									Project
 								</span>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>

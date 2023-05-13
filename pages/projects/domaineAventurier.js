@@ -2,7 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "@next/font/google"
 import styles from "/styles/Home.module.css"
-import NavBar from "/components/NavBar"
+import NavBar from "/components/project/NavBar"
 import Intro from "/components/project/Intro"
 import About from "../../components/project/About"
 import Gallery from "../../components/project/Gallery"
@@ -26,8 +26,8 @@ export default function DomaineAventurier() {
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
-			<main className=" dark:bg-[#222222] bg-[#27e193] overflow-x-hidden ">
-				<section id="introProject" className="pt-6 pb-8  sm:pb-16">
+			<main className=" dark:bg-[#DCDAD9] bg-[#27e193] overflow-x-hidden ">
+				<section id="introProject" className="pt-6 pb-8  md:pb-16">
 					<div className="container">
 						<NavBar />
 					</div>
@@ -35,25 +35,28 @@ export default function DomaineAventurier() {
 				</section>
 				<section
 					id="aboutProject"
-					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
+					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
 					<About />
 				</section>
 				<section
 					id="gallery"
-					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
+					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
 					<Gallery />
 				</section>
 
 				<section
 					id="navProject"
-					className=" pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
+					className=" pt-4 md:pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
 					<NavProject />
 				</section>
 
-				<section id="Footer" className="pb-16  dark:bg-[#DCDAD9] bg-[#213B86]">
+				<section
+					id="Footer"
+					className="pb-8 md:pb-16  dark:bg-[#222222] bg-[#213B86]"
+				>
 					<div className="container">
 						<Footer />
 					</div>

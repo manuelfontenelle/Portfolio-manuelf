@@ -11,19 +11,19 @@ const Intro = () => {
 		<>
 			<div>
 				<div className="container">
-					<h2 className="mt-20 font-Inter font-black text-7xl text-[#213B86] dark:text-[#DCDAD9] uppercase  leading-none  ">
+					<h2 className="mt-20 font-Inter font-black text-5xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  ">
 						Domaine Aventurier
 					</h2>
 					<div className="flex justify-between mt-10 flex-col  gap-10 sm:gap-0">
-						<div className=" uppercase font-Inter text-sm  font-bold text-[#213B86]  dark:text-[#DCDAD9]">
-							<span className="block w-[35%]">
+						<div className=" uppercase font-Inter text-sm  font-bold text-[#213B86]  dark:text-[#222222]">
+							<span className="block lg:w-[35%]">
 								le Domaine Aventurier est une Pourvoirie chasse et pêche dans
 								les Hautes Laurentides, dans la province du quebec
 							</span>
 							<a
 								href="https://www.domaineaventurier.com"
 								target="_blank"
-								className="linkProject flex mt-5 text-[#213B86] dark:text-[#DCDAD9] font-medium text-xl
+								className="linkProject flex mt-5 text-[#213B86] dark:text-[#222222] font-medium text-xl
 					transition-all ease-in-out
      hover:text-[#101D43] hover:dark:text-gray-400
      focus:text-[#101D43] focus:dark:text-gray-400

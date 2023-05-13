@@ -11,13 +11,13 @@ const About = () => {
 		<>
 			<div>
 				<div className="container">
-					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-4  mt-10 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
-						<div className=" sm:w-[50%] font-Inter text-xl uppercase font-regular">
+					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] pb-4  mt-10 text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
+						<div className=" lg:w-[40%] font-Inter text-2xl uppercase font-semibold">
 							Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor
 							incididunt
 						</div>
 					</div>
-					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="w-[50%] text-left uppercase text-[#A8A3A0]">
 								<span>Client</span>
@@ -27,7 +27,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="w-[50%] text-left uppercase text-[#A8A3A0]">
 								<span>Role</span>
@@ -40,7 +40,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="w-[50%] text-left uppercase text-[#A8A3A0]">
 								<span>Year</span>
@@ -50,7 +50,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4  text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="w-[50%] text-left uppercase text-[#A8A3A0]">
 								<span>Country</span>
@@ -60,7 +60,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex  pb-14 pt-4  text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex pb-8 sm:pb-14 pt-4  text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:ml-[50%] w-full flex justify-between font-Inter font-medium text-sm sm:text-base ">
 							<div className="text-left">
 								<span>
