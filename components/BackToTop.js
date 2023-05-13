@@ -2,8 +2,8 @@ import React from "react"
 
 const BackToTop = () => {
 	return (
-		<div className="border-t-[1px] border-[#DCDAD9]  dark:border-[#222222] pt-6">
-			<h2 className=" pb-3 flex justify-center items-center font-SofiaSans text-[4vw] md:text-[2.5vw] text-[#DCDAD9] dark:text-[#222222] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]">
+		<div className="border-t-[1px] border-[#DCDAD9]  dark:border-[#222222] pt-4 sm:pt-6">
+			<h2 className=" pb-3 flex justify-center items-center font-SofiaSans text-[5vw] md:text-[2.5vw] text-[#DCDAD9] dark:text-[#222222] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]">
 				Back to top
 				<span className="">
 					<svg
