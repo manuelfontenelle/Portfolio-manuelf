@@ -8,6 +8,13 @@ $third-color: #222222;
 	color: $primary-color;
 }
 
+.btn-form {
+	&.disabled-btn {
+		cursor: wait;
+		opacity: 0.5;
+	}
+}
+
 // input:checked ~ .dot {
 // 	transform: translateX(100%);
 // 	/* background-color: #132b50; */
@@ -38,7 +45,7 @@ $third-color: #222222;
 }
 
 .svg-arrow {
-	width: 50%;
+	width: 18px;
 }
 
 .linkProject {
@@ -79,10 +86,10 @@ $third-color: #222222;
 
 .prevBtn {
 	-webkit-text-stroke: 2px #dcdad9;
-	text-stroke: 2px #dcdad9;
+	text-shadow: 2px #dcdad9;
 
 	&--Dark {
 		-webkit-text-stroke: 2px #222222;
-		text-stroke: 2px #222222;
+		text-shadow: 2px #222222;
 	}
 }
