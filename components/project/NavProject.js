@@ -15,7 +15,7 @@ const NavProject = () => {
 						<div className="flex items-center justify-center w-[50%]  border-r-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] ">
 							<a
 								href="#"
-								className="flex flex-col items-start text-white hover:text-[#27e193] hover:textBorder transition-all ease-in-out prevBtnContainer"
+								className="flex flex-col items-start text-white hover:text-[#27e193] hover:textBorder prevBtnContainer"
 							>
 								<span className="font-SofiaSans  md:text-9xl leading-none text-transparent textBorder tracking-[-0.03em] prevBtn dark:hidden">
 									Prev
@@ -31,7 +31,7 @@ const NavProject = () => {
 						<div className="flex items-center justify-center text-center w-[50%]">
 							<a
 								href="#"
-								className="flex flex-col  items-start text-white hover:text-[#27e193] transition-all ease-in-out"
+								className="flex flex-col  items-start text-white hover:text-[#27e193] "
 							>
 								<span className="font-SofiaSans text-4xl md:text-9xl leading-none tracking-[-0.03em]">
 									Next

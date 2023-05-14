@@ -24,7 +24,7 @@ const Intro = () => {
 								href="https://www.domaineaventurier.com"
 								target="_blank"
 								className="linkProject flex mt-5 text-[#213B86] dark:text-[#222222] font-medium text-xl
-					transition-all ease-in-out
+				
      hover:text-[#101D43] hover:dark:text-gray-400
      focus:text-[#101D43] focus:dark:text-gray-400
      active:text-[#101D43]"

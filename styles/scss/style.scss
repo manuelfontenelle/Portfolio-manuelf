@@ -51,19 +51,15 @@ $third-color: #222222;
 
 .linkProject {
 	.arrow-color {
-		transition: all ease-in-out;
 		fill: #213b86;
 		&-dark {
-			transition: all ease-in-out;
 			fill: #222222;
 		}
 	}
 	&:hover {
 		.arrow-color {
-			transition: all ease-in-out;
 			fill: #101d43;
 			&-dark {
-				transition: all ease-in-out;
 				fill: #9ca3af;
 			}
 		}
@@ -72,7 +68,6 @@ $third-color: #222222;
 
 .linkForm {
 	.arrow-color {
-		transition: all ease-in-out;
 		fill: #bac8ee;
 		&-dark {
 			fill: #9ca3af;
@@ -92,7 +87,7 @@ $third-color: #222222;
 	-webkit-text-stroke: 1px #dcdad9;
 	text-shadow: 1px #dcdad9;
 	font-size: 2.2rem;
-	transition: all ease-in-out;
+
 	&:hover {
 		-webkit-text-stroke: 1px #27e193;
 		text-shadow: 1px #27e193;
@@ -115,7 +110,6 @@ $third-color: #222222;
 	}
 }
 .prevBtnContainer {
-	transition: all ease-in-out;
 	&:hover {
 		.prevBtn {
 			-webkit-text-stroke: 1px #27e193;

@@ -180,8 +180,7 @@ const Formulaire = () => {
      uppercase
      rounded
   
-					transition-all
-					ease-in-out
+
 
      hover:text-[#27e193] hover:dark:text-[#222222] 
      focus:text-[#27e193] focus:dark:text-[#222222] 
