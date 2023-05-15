@@ -10,6 +10,10 @@ import NavProject from "../../components/project/NavProject"
 
 import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
+import domaineAventurier1 from "../../public/projects/domaine-aventurier1.jpg"
+import domaineAventurier2 from "../../public/projects/domaine-aventurier2.png"
+import domaineAventurier3 from "../../public/projects/domaine-aventurier3.jpg"
+import domaineAventurier4 from "../../public/projects/domaine-aventurier4.png"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -31,7 +35,7 @@ export default function DomaineAventurier() {
 					<div className="container">
 						<NavBar />
 					</div>
-					<Intro />
+					<Intro img1={domaineAventurier1} />
 				</section>
 				<section
 					id="aboutProject"
@@ -43,7 +47,11 @@ export default function DomaineAventurier() {
 					id="gallery"
 					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<Gallery />
+					<Gallery
+						img2={domaineAventurier2}
+						img3={domaineAventurier3}
+						img4={domaineAventurier4}
+					/>
 				</section>
 
 				<section

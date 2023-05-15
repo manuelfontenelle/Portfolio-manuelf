@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 
-const Intro = () => {
+const Intro = ({ img1 }) => {
 	useEffect(() => {}, [])
 
 	return (
@@ -23,7 +23,7 @@ const Intro = () => {
 							<a
 								href="https://www.domaineaventurier.com"
 								target="_blank"
-								className="linkProject flex mt-5 text-[#213B86] dark:text-[#222222] font-medium text-xl
+								className="linkProject flex  items-center mt-5 text-[#213B86] dark:text-[#222222] font-bold text-xl leading-1
 				
      hover:text-[#101D43] hover:dark:text-gray-400
      focus:text-[#101D43] focus:dark:text-gray-400
@@ -32,8 +32,6 @@ const Intro = () => {
 								domaineaventurier.com
 								<span className="">
 									<svg
-										width="23"
-										height="26"
 										viewBox="0 0 26 25"
 										fill="none"
 										xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +59,13 @@ const Intro = () => {
 							</a>
 						</div>
 					</div>
-					<div className=" h-[675px] w-full bg-[#213B86] mt-5 rounded-md"></div>
+					<div className=" h-[675px] w-full bg-[#213B86] mt-5 rounded-md">
+						<Image
+							src={img1}
+							className="h-full w-full object-cover rounded-md"
+							alt="Picture of the author "
+						/>
+					</div>
 				</div>
 			</div>
 		</>

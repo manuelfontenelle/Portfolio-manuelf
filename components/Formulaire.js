@@ -168,8 +168,8 @@ const Formulaire = () => {
 					<button
 						id="submit-btn1"
 						type="submit"
-						className="linkForm text-left flex justify-start items-start
-     w-full
+						className="linkForm text-left flex justify-start items-center
+     w-full leading-1
      
     
      mt-5
@@ -190,8 +190,6 @@ const Formulaire = () => {
 						Submit
 						<span className="">
 							<svg
-								width="26"
-								height="25"
 								viewBox="0 0 26 25"
 								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
@@ -203,8 +201,6 @@ const Formulaire = () => {
 								/>
 							</svg>
 							<svg
-								width="26"
-								height="25"
 								viewBox="0 0 26 25"
 								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
