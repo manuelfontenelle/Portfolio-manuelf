@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Cigale Construction"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marvel Library"
-						textIntro="Bibliothèque Personnages / Comics"
+						textIntro="Bibliothèque Marvel - Personnages / Comics "
 						urlIntro="marvel-manuelf.netlify.app"
 						urlDetailIntro="https://marvel-manuelf.netlify.app/"
 					/>
