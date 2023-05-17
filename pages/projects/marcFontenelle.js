@@ -10,10 +10,10 @@ import NavProject from "../../components/project/NavProject"
 
 import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
-import vinted1 from "../../public/projects/vinted1.jpg"
-import vinted2 from "../../public/projects/vinted2.jpg"
-import vinted3 from "../../public/projects/vinted3.jpg"
-import vinted4 from "../../public/projects/vinted4.jpg"
+import marcFontenelle1 from "../../public/projects/marc-fontenelle1.jpg"
+import marcFontenelle2 from "../../public/projects/marc-fontenelle2.jpg"
+import marcFontenelle3 from "../../public/projects/marc-fontenelle3.jpg"
+import marcFontenelle4 from "../../public/projects/marc-fontenelle4.png"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,7 +21,7 @@ export default function DomaineAventurier() {
 	return (
 		<>
 			<Head>
-				<title>Project | Vinted clone</title>
+				<title>Project | Marc Fontenelle</title>
 				<meta
 					name="description"
 					content="Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes Laurentides"
@@ -36,13 +36,13 @@ export default function DomaineAventurier() {
 						<NavBar />
 					</div>
 					<Intro
-						img1={vinted1}
+						img1={marcFontenelle1}
 						descAlt={"Cigale Construction"}
 						objectPosition={"objectPositionLeft27"}
-						titreIntro="Vinted Clone"
-						textIntro="Réplique de la web app Vinted - Projet Fullstack js"
-						urlIntro="vinted-frontend-manuelf.netlify.app"
-						urlDetailIntro="https://vinted-frontend-manuelf.netlify.app/"
+						titreIntro="Marc Fontenelle"
+						textIntro="Porfolio - Artiste / Sculpteur"
+						urlIntro="marc-fontenelle.com"
+						urlDetailIntro="https://marc-fontenelle.com/"
 					/>
 				</section>
 				<section
@@ -56,16 +56,16 @@ export default function DomaineAventurier() {
 					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
 					<Gallery
-						img2={vinted2}
-						img3={vinted3}
-						img4={vinted4}
+						img2={marcFontenelle2}
+						img3={marcFontenelle3}
+						img4={marcFontenelle4}
 						paddingBlock1={""}
 						paddingBlock2={""}
-						paddingBlock3={""}
+						paddingBlock3={"lg:py-10"}
 						object1={"object-cover"}
 						object2={"object-cover"}
-						object3={"object-cover"}
-						descAlt={"Vinted"}
+						object3={"object-contain"}
+						descAlt={"Marc Fontenelle"}
 					/>
 				</section>
 

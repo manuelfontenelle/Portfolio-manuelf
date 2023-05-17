@@ -39,6 +39,10 @@ export default function DomaineAventurier() {
 						img1={domaineAventurier1}
 						descAlt={"Domaine Aventurier"}
 						objectPosition={"objectPositionLeft15"}
+						titreIntro="Domaine Aventurier"
+						textIntro="le Domaine Aventurier est une Pourvoirie chasse et pêche dans les Hautes Laurentides, dans la province du quebec."
+						urlIntro="domaineaventurier.com"
+						urlDetailIntro="https://domaine-aventurier-i18n.vercel.app/"
 					/>
 				</section>
 				<section

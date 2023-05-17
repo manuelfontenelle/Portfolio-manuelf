@@ -4,7 +4,15 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 
-const Intro = ({ img1, descAlt, objectPosition }) => {
+const Intro = ({
+	img1,
+	descAlt,
+	objectPosition,
+	titreIntro,
+	textIntro,
+	urlIntro,
+	urlDetailIntro,
+}) => {
 	useEffect(() => {}, [])
 
 	return (
@@ -12,16 +20,13 @@ const Intro = ({ img1, descAlt, objectPosition }) => {
 			<div>
 				<div className="container">
 					<h2 className="mt-20 font-Inter font-black text-5xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  ">
-						Domaine Aventurier
+						{titreIntro}
 					</h2>
 					<div className="flex justify-between mt-10 flex-col  gap-10 sm:gap-0">
 						<div className=" uppercase font-Inter text-sm  font-bold text-[#213B86]  dark:text-[#222222]">
-							<span className="block lg:w-[35%]">
-								le Domaine Aventurier est une Pourvoirie chasse et pêche dans
-								les Hautes Laurentides, dans la province du quebec
-							</span>
+							<span className="block lg:w-[55%] xl:w-[40%]">{textIntro}</span>
 							<a
-								href="https://www.domaineaventurier.com"
+								href={urlDetailIntro}
 								target="_blank"
 								className="linkProject flex  items-center mt-5 text-[#213B86] dark:text-[#222222] font-bold text-xl leading-1
 				
@@ -29,7 +34,7 @@ const Intro = ({ img1, descAlt, objectPosition }) => {
      focus:text-[#101D43] focus:dark:text-gray-400
      active:text-[#101D43]"
 							>
-								domaineaventurier.com
+								{urlIntro}
 								<span className="">
 									<svg
 										viewBox="0 0 26 25"
@@ -59,7 +64,7 @@ const Intro = ({ img1, descAlt, objectPosition }) => {
 							</a>
 						</div>
 					</div>
-					<div className=" h-[675px] w-full  mt-5 ">
+					<div className=" h-[500px] xl:h-[735px] w-full  mt-5 ">
 						<Image
 							src={img1}
 							className={`h-full w-full object-cover rounded-md ${objectPosition}`}

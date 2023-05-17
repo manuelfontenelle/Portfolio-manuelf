@@ -21,7 +21,7 @@ export default function DomaineAventurier() {
 	return (
 		<>
 			<Head>
-				<title>Project | Domaine aventurier</title>
+				<title>Project | Cigale Construction</title>
 				<meta
 					name="description"
 					content="Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes Laurentides"
@@ -39,6 +39,10 @@ export default function DomaineAventurier() {
 						img1={cigaleConstruction1}
 						descAlt={"Cigale Construction"}
 						objectPosition={""}
+						titreIntro="Cigale Construction"
+						textIntro="Entrepreneur Général spécialisé dans la réalisation de projets Architecturaux. Nous œuvrons dans l'aire du grand Montréal."
+						urlIntro="cigaleconstruction.ca"
+						urlDetailIntro="https://www.cigaleconstruction.ca/"
 					/>
 				</section>
 				<section

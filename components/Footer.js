@@ -21,9 +21,15 @@ const Footer = () => {
 					<a href="#" className="hover:text-[#27e193]">
 						Github
 					</a>
-					<a href="#" className="hover:text-[#27e193]">
+					<a
+						target="_blank"
+						href="/files/cv-manuelfontenelle-2023.pdf"
+						alt="cv manuel fontenelle"
+						className="hover:text-[#27e193]"
+					>
 						Resume
 					</a>
+
 					<a href="#" className="sm:ml-20 hover:text-[#27e193]">
 						Mentions légales
 					</a>
