@@ -37,7 +37,7 @@ export default function DomaineAventurier() {
 					</div>
 					<Intro
 						img1={marvel1}
-						descAlt={"Cigale Construction"}
+						descAlt={"Marvel"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marvel Library"
 						textIntro="Bibliothèque Marvel - Personnages / Comics "

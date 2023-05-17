@@ -37,7 +37,7 @@ export default function DomaineAventurier() {
 					</div>
 					<Intro
 						img1={vinted1}
-						descAlt={"Cigale Construction"}
+						descAlt={"Vinted"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Vinted Clone"
 						textIntro="Réplique de la web app Vinted - Projet Fullstack js"

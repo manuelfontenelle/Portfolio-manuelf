@@ -37,7 +37,7 @@ export default function DomaineAventurier() {
 					</div>
 					<Intro
 						img1={marcFontenelle1}
-						descAlt={"Cigale Construction"}
+						descAlt={"Marc Fontenelle"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marc Fontenelle"
 						textIntro="Porfolio - Artiste / Sculpteur"
