@@ -19,7 +19,7 @@ const Intro = ({
 		<>
 			<div>
 				<div className="container">
-					<h2 className="mt-20 font-Inter font-black text-5xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  ">
+					<h2 className="mt-12 font-Inter font-black text-5xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  ">
 						{titreIntro}
 					</h2>
 					<div className="flex justify-between mt-10 flex-col  gap-10 sm:gap-0">
