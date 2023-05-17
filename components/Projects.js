@@ -70,22 +70,28 @@ const Projects = () => {
 									alt="Picture of the author "
 								/>
 							</Link>
-							<div className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md">
+							<Link
+								href="/projects/cigaleConstruction"
+								className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"
+							>
 								<Image
 									src={cigaleConstructionImg}
 									className="h-full w-full object-cover rounded-md"
 									alt="Picture of the author"
 								/>
-							</div>
+							</Link>
 						</div>
 						<div className="flex flex-row justify-center items-end ">
-							<div className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md">
+							<Link
+								href="/projects/vinted"
+								className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"
+							>
 								<Image
 									src={vintedImg}
 									className="h-full w-full object-cover rounded-md"
 									alt="Picture of the author"
 								/>
-							</div>
+							</Link>
 						</div>
 						<div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between items-end ">
 							<div className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md md:mb-[-6rem;]">

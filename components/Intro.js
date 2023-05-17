@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
-
+import manuImg from "../public/manuelfontenelle.jpg"
 const Intro = () => {
 	useEffect(() => {}, [])
 
@@ -23,7 +23,13 @@ const Intro = () => {
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 							minim veniam, quis nostrud exercitation ullamco.
 						</div>
-						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px]"></div>
+						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px]">
+							<Image
+								src={manuImg}
+								className="h-full w-full object-cover rounded-md"
+								alt="Picture of the author "
+							/>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -10,10 +10,10 @@ import NavProject from "../../components/project/NavProject"
 
 import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
-import domaineAventurier1 from "../../public/projects/domaine-aventurier1.jpg"
-import domaineAventurier2 from "../../public/projects/domaine-aventurier2.png"
-import domaineAventurier3 from "../../public/projects/domaine-aventurier3.jpg"
-import domaineAventurier4 from "../../public/projects/domaine-aventurier4.png"
+import cigaleConstruction1 from "../../public/projects/cigale-construction1.jpg"
+import cigaleConstruction2 from "../../public/projects/cigale-construction2.jpg"
+import cigaleConstruction3 from "../../public/projects/cigale-construction3.png"
+import cigaleConstruction4 from "../../public/projects/cigale-construction4.png"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -36,9 +36,9 @@ export default function DomaineAventurier() {
 						<NavBar />
 					</div>
 					<Intro
-						img1={domaineAventurier1}
-						descAlt={"Domaine Aventurier"}
-						objectPosition={"objectPositionLeft15"}
+						img1={cigaleConstruction1}
+						descAlt={"Cigale Construction"}
+						objectPosition={""}
 					/>
 				</section>
 				<section
@@ -52,16 +52,16 @@ export default function DomaineAventurier() {
 					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
 					<Gallery
-						img2={domaineAventurier2}
-						img3={domaineAventurier3}
-						img4={domaineAventurier4}
-						paddingBlock1={"lg:py-10"}
-						paddingBlock2={""}
+						img2={cigaleConstruction2}
+						img3={cigaleConstruction3}
+						img4={cigaleConstruction4}
+						paddingBlock1={""}
+						paddingBlock2={"lg:py-10"}
 						paddingBlock3={"lg:py-10"}
-						object1={"object-contain"}
-						object2={"object-cover"}
+						object1={"object-cover"}
+						object2={"object-contain"}
 						object3={"object-contain"}
-						descAlt={"Domaine Aventurier"}
+						descAlt={"Cigale Construction"}
 					/>
 				</section>
 

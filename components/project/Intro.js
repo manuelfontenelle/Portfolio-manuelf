@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 
-const Intro = ({ img1 }) => {
+const Intro = ({ img1, descAlt, objectPosition }) => {
 	useEffect(() => {}, [])
 
 	return (
@@ -59,11 +59,11 @@ const Intro = ({ img1 }) => {
 							</a>
 						</div>
 					</div>
-					<div className=" h-[675px] w-full bg-[#213B86] mt-5 rounded-md">
+					<div className=" h-[675px] w-full  mt-5 ">
 						<Image
 							src={img1}
-							className="h-full w-full object-cover rounded-md"
-							alt="Picture of the author "
+							className={`h-full w-full object-cover rounded-md ${objectPosition}`}
+							alt={descAlt}
 						/>
 					</div>
 				</div>
