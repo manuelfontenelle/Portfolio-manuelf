@@ -24,7 +24,7 @@ export default function DomaineAventurier() {
 				<title>Project | Marvel Library</title>
 				<meta
 					name="description"
-					content="Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes Laurentides"
+					content="Marvel Library - Fullstack React js | Characters / Comics / Favorites"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Marvel"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marvel Library"
-						textIntro="Bibliothèque Marvel - Personnages / Comics "
+						textIntro="Fullstack React js | Characters / Comics / Favorites"
 						urlIntro="marvel-manuelf.netlify.app"
 						urlDetailIntro="https://marvel-manuelf.netlify.app/"
 					/>

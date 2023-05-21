@@ -91,7 +91,7 @@ const Formulaire = () => {
 										focus:text-[#DCDAD9] dark:focus:dark:text-[#222222] focus:border-[#1CCBAD] focus:dark:border-[#222222] focus:shadow-none"
 								id="exampleInput123"
 								aria-describedby="emailHelp123"
-								placeholder="Prénom"
+								placeholder="First Name"
 								onChange={(e) => setPrenom(e.target.value)}
 							/>
 						</div>
@@ -108,7 +108,7 @@ const Formulaire = () => {
 								focus:text-[#DCDAD9] dark:focus:dark:text-[#222222] focus:border-[#1CCBAD] focus:dark:border-[#222222] focus:shadow-none"
 								id="exampleInput124"
 								aria-describedby="emailHelp124"
-								placeholder="Nom"
+								placeholder="Last Name"
 								onChange={(e) => setNom(e.target.value)}
 							/>
 						</div>
@@ -126,7 +126,7 @@ const Formulaire = () => {
           focus:px-2 
 										focus:text-[#DCDAD9] dark:focus:dark:text-[#222222] focus:border-[#1CCBAD] focus:dark:border-[#222222] focus:shadow-none"
 							id="exampleTel0"
-							placeholder="Téléphone"
+							placeholder="Phone"
 							onChange={(e) => setPhone(e.target.value)}
 						/>
 					</div>

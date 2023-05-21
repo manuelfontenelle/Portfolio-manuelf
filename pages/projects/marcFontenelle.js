@@ -24,7 +24,7 @@ export default function DomaineAventurier() {
 				<title>Project | Marc Fontenelle</title>
 				<meta
 					name="description"
-					content="Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes Laurentides"
+					content="Marc Fontenelle - Portfolio - Artist / Sculptor"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Marc Fontenelle"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marc Fontenelle"
-						textIntro="Porfolio - Artiste / Sculpteur"
+						textIntro="Portfolio - Artist / Sculptor"
 						urlIntro="marc-fontenelle.com"
 						urlDetailIntro="https://marc-fontenelle.com/"
 					/>
