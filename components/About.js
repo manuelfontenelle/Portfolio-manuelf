@@ -60,12 +60,16 @@ const About = () => {
 							About me
 						</div>
 						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base ">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco. Lorem
-							ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-							minim veniam, quis nostrud exercitation ullamco.
+							As a Fullstack developer, I can take care of the total creation of
+							your website (showcase / ecommerce / portfolio / blog /
+							application).
+							<br />
+							<br />
+							I will take care of the user experience part on the front-end and
+							database / data management on the back-end part.
+							<br />
+							<br />
+							And I am also graphic and web designer ;)
 						</div>
 					</div>
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
@@ -73,10 +77,78 @@ const About = () => {
 							Here's what i do
 						</div>
 						<div className="sm:w-[48%] gap-5 flex justify-between flex-wrap">
-							<Competence />
-							<Competence />
-							<Competence />
-							<Competence />
+							<Competence
+								title="front-end"
+								svg={
+									<svg
+										width="45"
+										height="45"
+										viewBox="0 0 45 45"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										className="svgAbout fill-[#101D43] dark:fill-[#DCDAD9]"
+									>
+										<path
+											d="M0.186976 25.4325C1.45961 35.4498 9.54917 43.5394 19.5676 44.8132C34.2631 46.6816 46.6815 34.2642 44.8133 19.5675C43.5406 9.55017 35.4511 1.46063 25.4326 0.186761C10.7348 -1.68155 -1.68247 10.7358 0.186976 25.4325ZM11.4632 13.107C11.4632 12.2009 12.1986 11.4643 13.1058 11.4643H31.8909C32.797 11.4643 33.5336 12.1997 33.5336 13.107V31.893C33.5336 32.7991 32.7982 33.5357 31.8909 33.5357H13.1058C12.1998 33.5357 11.4632 32.8003 11.4632 31.893V13.107Z"
+											fill="#101D43"
+										/>
+									</svg>
+								}
+							/>
+							<Competence
+								title="Back-end"
+								svg={
+									<svg
+										width="45"
+										height="45"
+										viewBox="0 0 45 45"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										className="svgAbout fill-[#101D43] dark:fill-[#DCDAD9]"
+									>
+										<path
+											d="M19.5675 44.8132C34.263 46.6816 46.6815 34.2642 44.8132 19.5675C43.5406 9.55017 35.451 1.46063 25.4325 0.186761C10.7369 -1.68155 -1.68154 10.7358 0.186741 25.4325C1.46169 35.451 9.55015 43.5405 19.5675 44.8132ZM22.5012 11.4651C28.5951 11.4651 33.537 16.4045 33.537 22.5009C33.537 28.5949 28.5951 33.5367 22.5012 33.5367C16.4072 33.5367 11.4654 28.5949 11.4654 22.5009C11.4654 16.4069 16.4072 11.4651 22.5012 11.4651Z"
+											fill="#101D43"
+										/>
+									</svg>
+								}
+							/>
+							<Competence
+								title="Cms"
+								svg={
+									<svg
+										width="45"
+										height="45"
+										viewBox="0 0 45 45"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										className="svgAbout fill-[#101D43] dark:fill-[#DCDAD9]"
+									>
+										<path
+											d="M19.5675 44.8132C34.263 46.6815 46.6815 34.2642 44.8132 19.5675C43.5406 9.55017 35.451 1.46063 25.4325 0.186761C10.7369 -1.68155 -1.68154 10.7358 0.186741 25.4325C1.46055 35.4498 9.55015 43.5382 19.5675 44.8132ZM9.85484 28.2676L21.0909 9.48243C21.7278 8.41712 23.2731 8.41712 23.91 9.48243L35.1449 28.2676C35.4485 28.7762 35.4554 29.4051 35.1633 29.9217C34.8723 30.436 34.3259 30.7545 33.7348 30.7545H11.2635C10.6724 30.7545 10.1272 30.4372 9.83508 29.9217C9.54412 29.4062 9.55128 28.775 9.85484 28.2676Z"
+											fill="#101D43"
+										/>
+									</svg>
+								}
+							/>
+							<Competence
+								title="ui/ux design"
+								svg={
+									<svg
+										width="45"
+										height="45"
+										viewBox="0 0 45 45"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										className="svgAbout fill-[#101D43] dark:fill-[#DCDAD9]"
+									>
+										<path
+											d="M25.4324 44.813C35.4497 43.5404 43.5392 35.4508 44.813 25.4324C46.6813 10.7346 34.2641 -1.6815 19.5674 0.18677C9.55012 1.4594 1.46062 9.54896 0.18676 19.5674C-1.68154 34.2652 10.7357 46.6825 25.4324 44.813ZM11.9454 14.2685C11.3027 13.6258 11.3027 12.588 11.9454 11.9465C12.588 11.3039 13.6258 11.3039 14.2673 11.9465L22.4999 20.1791L30.7325 11.9465C31.3751 11.3039 32.4129 11.3039 33.0544 11.9465C33.697 12.5892 33.697 13.627 33.0544 14.2685L24.8218 22.5011L33.0544 30.7337C33.697 31.3763 33.697 32.4141 33.0544 33.0556C32.7337 33.3764 32.3133 33.5367 31.8929 33.5367C31.4725 33.5367 31.0521 33.3763 30.7314 33.0556L22.5 24.823L14.2673 33.0556C13.9466 33.3764 13.5262 33.5367 13.1058 33.5367C12.6854 33.5367 12.265 33.3763 11.9443 33.0556C11.3017 32.413 11.3017 31.3752 11.9443 30.7337L20.1769 22.5011L11.9454 14.2685Z"
+											fill=""
+										/>
+									</svg>
+								}
+							/>
 						</div>
 					</div>
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
