@@ -19,10 +19,12 @@ const ProjectSmall = ({ img, linkUrl }) => {
 			>
 				<div
 					className={`absolute bottom-10 flex justify-between gap-4 transition-all ease-in-out	 ${
-						isHovering ? "animatedBtnGrp" : "left-[-50%]"
+						isHovering
+							? "animatedBtnGrp"
+							: "left-10 md:left-[-90%] xl:left-[-50%]"
 					}`}
 				>
-					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-2xl flex items-center">
+					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-lg lg:text-2xl flex items-center">
 						See more
 					</span>
 					<span className="bg-white  rounded-2xl">

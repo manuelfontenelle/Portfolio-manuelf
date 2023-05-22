@@ -19,7 +19,7 @@ const Intro = ({
 		<>
 			<div>
 				<div className="container">
-					<h2 className="mt-12 font-Inter font-black text-5xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  ">
+					<h2 className="mt-12 font-Inter font-black text-3xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  break-words">
 						{titreIntro}
 					</h2>
 					<div className="flex justify-between mt-10 flex-col  gap-10 sm:gap-0">
@@ -28,14 +28,14 @@ const Intro = ({
 							<a
 								href={urlDetailIntro}
 								target="_blank"
-								className="linkProject flex  items-center mt-5 text-[#213B86] dark:text-[#222222] font-bold text-xl leading-1
+								className="linkProject flex  items-center mt-5 text-[#213B86] dark:text-[#222222] font-bold text-xl leading-1 break-all underline sm:no-underline
 				
      hover:text-[#101D43] hover:dark:text-gray-400
      focus:text-[#101D43] focus:dark:text-gray-400
      active:text-[#101D43]"
 							>
 								{urlIntro}
-								<span className="">
+								<span className="hidden sm:block">
 									<svg
 										viewBox="0 0 26 25"
 										fill="none"
@@ -64,10 +64,10 @@ const Intro = ({
 							</a>
 						</div>
 					</div>
-					<div className=" h-[500px] xl:h-[735px] w-full  mt-5 ">
+					<div className="  xl:h-[735px] w-full  mt-5 ">
 						<Image
 							src={img1}
-							className={`h-full w-full object-cover rounded-md ${objectPosition}`}
+							className={`h-full w-full object-contain xl:object-cover rounded-md ${objectPosition}`}
 							alt={descAlt}
 						/>
 					</div>

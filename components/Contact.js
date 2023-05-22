@@ -288,7 +288,7 @@ const Contact = () => {
 					</div>
 					<div className="sm:w-[48%] text-[#DCDAD9] dark:text-[#222222] ">
 						<h3 className="font-SofiaSans text-5xl uppercase tracking-[-0.03em]">
-							DO YOU HAVE A PROJECT OR WANT TO COLLABORATE?
+							YOU HAVE A PROJECT OR WANT TO COLLABORATE?
 						</h3>
 						<p className="font-Inter font-medium mt-2 text-sm sm:text-base ">
 							Do not hesitate to contact me via this form, I will not fail to

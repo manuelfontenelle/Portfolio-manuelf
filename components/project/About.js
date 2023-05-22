@@ -12,7 +12,7 @@ const About = () => {
 			<div>
 				<div className="container">
 					<div className="flex justify-between border-b-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] pb-4  mt-10 text-[#DCDAD9]  dark:text-[#DCDAD9] flex-col sm:flex-row gap-10 sm:gap-0">
-						<div className=" lg:w-[40%] font-Inter text-2xl uppercase font-semibold">
+						<div className=" lg:w-[40%] font-Inter text-lg lg:text-2xl uppercase font-semibold">
 							Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor
 							incididunt
 						</div>

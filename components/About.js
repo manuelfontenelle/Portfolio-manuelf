@@ -134,7 +134,7 @@ const About = () => {
 										/>
 									</svg>
 								}
-								desc1="CMS is the acronym for Content Management System, i.e. content management system. It is an online interface through which it is possible to easily manage and modify a website, without the need for technical knowledge of computer language."
+								desc1="CMS is the acronym for Content Management System. It is an online interface through which it is possible to easily manage and modify a website, without the need for technical knowledge of computer language."
 								desc2="Strapi is a platform with many tools that allow flexible use from all frontend frameworks"
 							/>
 							<Competence
@@ -154,7 +154,7 @@ const About = () => {
 										/>
 									</svg>
 								}
-								desc1="UI is short for user interface or user interface. The mission of the UI designer is to create a web interface that is graphically pleasing and easy to learn."
+								desc1="UI is short for user interface. The mission of the UI designer is to create a web interface that is graphically pleasing and easy to learn."
 								desc2="UX refers to the overall quality of interactions between the user and the site or app. It is determined by technical, practical and emotional aspects. The quality of the user experience on a site requires significant design work."
 							/>
 						</div>
