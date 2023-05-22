@@ -1,20 +1,17 @@
 import React from "react"
 
-const Competence = ({ title, svg }) => {
+const Competence = ({ title, svg, desc1, desc2 }) => {
 	return (
-		<div className="w-[100%] xl:w-[48%] h-[450px] bg-[#101D43] dark:bg-[#A8A3A0] rounded-md p-8 flex flex-col gap-16 relative ">
-			<div className=" bg-[#DCDAD9] dark:bg-[#222222] w-20 h-20 rounded-md flex justify-center items-center">
+		<div className="w-[100%] xl:w-[48%] xl:h-[500px] 2xl:h-[470px] bg-[#101D43] dark:bg-[#A8A3A0] rounded-md p-8 flex flex-col gap-8 relative ">
+			<div className=" bg-[#DCDAD9] dark:bg-[#222222] w-16 h-16 rounded-md flex justify-center items-center">
 				{svg}
 			</div>
-			<div className="absolute bottom-8">
+			<div className="">
 				<span className="font-SofiaSans uppercase text-3xl">{title}</span>
-				<span className=" block text-base leading-5 font-medium mt-5 pr-8 text-[#DCDAD9] dark:text-[#222222]">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incidid enim ad minim veniam, quis nostrud
-					exercitationlamco. <br />
+				<span className=" block text-base leading-5 font-medium mt-2 pr-2 text-[#DCDAD9] dark:text-[#222222]">
+					{desc1} <br />
 					<br />
-					ectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore.
+					{desc2}
 				</span>
 			</div>
 		</div>

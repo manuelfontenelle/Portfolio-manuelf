@@ -4,6 +4,9 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 
+import ProjectBig from "./ProjectBig"
+import ProjectSmall from "./ProjectSmall"
+
 import domaineAventurierImg from "../public/previews/domaine-aventurier.jpg"
 import vintedImg from "../public/previews/vinted.jpg"
 import marcFontenelleImg from "../public/previews/marc-fontenelle.jpg"
@@ -60,60 +63,31 @@ const Projects = () => {
 				<div className="container">
 					<div className="flex flex-col gap-14">
 						<div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between items-end mt-5 ">
-							<Link
-								href="/projects/domaineAventurier"
-								className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] rounded-md"
-							>
-								<Image
-									src={domaineAventurierImg}
-									className="h-full w-full object-cover rounded-md"
-									alt="Picture of the author "
-								/>
-							</Link>
-							<Link
-								href="/projects/cigaleConstruction"
-								className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"
-							>
-								<Image
-									src={cigaleConstructionImg}
-									className="h-full w-full object-cover rounded-md"
-									alt="Picture of the author"
-								/>
-							</Link>
+							<ProjectBig
+								linkUrl="/projects/domaineAventurier"
+								img={domaineAventurierImg}
+							></ProjectBig>
+							<ProjectSmall
+								linkUrl="/projects/cigaleConstruction"
+								img={cigaleConstructionImg}
+							></ProjectSmall>
 						</div>
 						<div className="flex flex-row justify-center items-end ">
-							<Link
-								href="/projects/vinted"
-								className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"
-							>
-								<Image
-									src={vintedImg}
-									className="h-full w-full object-cover rounded-md"
-									alt="Picture of the author"
-								/>
-							</Link>
+							<ProjectBig
+								linkUrl="/projects/vinted"
+								img={vintedImg}
+							></ProjectBig>
 						</div>
 						<div className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between items-end ">
-							<Link
-								href="/projects/marvel"
-								className="h-[400px] md:h-[350px] xl:h-[500px] w-[100%] md:w-[36%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md md:mb-[-6rem;]"
-							>
-								<Image
-									src={marvelImg}
-									className="h-full w-full object-cover rounded-md"
-									alt="Picture of the author"
-								/>
-							</Link>
-							<Link
-								href="/projects/marcFontenelle"
-								className="h-[400px] md:h-[550px] xl:h-[750px] w-[100%] md:w-[60%] bg-[#213B86] dark:bg-[#DCDAD9] rounded-md"
-							>
-								<Image
-									src={marcFontenelleImg}
-									className="h-full w-full object-cover rounded-md"
-									alt="Picture of the author"
-								/>
-							</Link>
+							<ProjectSmall
+								linkUrl="/projects/marvel"
+								img={marvelImg}
+							></ProjectSmall>
+
+							<ProjectBig
+								linkUrl="/projects/marcFontenelle"
+								img={marcFontenelleImg}
+							></ProjectBig>
 						</div>
 					</div>
 				</div>

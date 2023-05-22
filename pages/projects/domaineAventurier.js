@@ -24,7 +24,7 @@ export default function DomaineAventurier() {
 				<title>Project | Domaine aventurier</title>
 				<meta
 					name="description"
-					content="Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes Laurentides"
+					content="Domaine Aventurier - Hunting and fishing outfitter in the Hautes Laurentides"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Domaine Aventurier"}
 						objectPosition={"objectPositionLeft15"}
 						titreIntro="Domaine Aventurier"
-						textIntro="le Domaine Aventurier est une Pourvoirie chasse et pêche dans les Hautes Laurentides, dans la province du quebec."
+						textIntro="Domaine Aventurier is a hunting and fishing outfitter in the Hautes Laurentides, in the province of Quebec."
 						urlIntro="domaineaventurier.com"
 						urlDetailIntro="https://domaine-aventurier-i18n.vercel.app/"
 					/>

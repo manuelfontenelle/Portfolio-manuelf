@@ -20,7 +20,7 @@ $third-color: #222222;
 // 	/* background-color: #132b50; */
 // }
 .svgAbout {
-	width: 55px;
+	width: 40px;
 	height: 100%;
 }
 .svg-sphere {
@@ -47,9 +47,19 @@ $third-color: #222222;
 		width: auto;
 	}
 }
-
+.svg-arrowProject {
+	width: 19px;
+	height: 100%;
+	fill: #213b86;
+	&-dark {
+		fill: #222222;
+	}
+}
 .svg-arrow {
 	width: 17px;
+}
+.animatedBtnGrp {
+	left: 2.5rem;
 }
 
 .linkProject {
