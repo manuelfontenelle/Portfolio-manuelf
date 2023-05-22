@@ -23,7 +23,7 @@ const ProjectSmall = ({ img, linkUrl }) => {
 					}`}
 				>
 					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-2xl flex items-center">
-						Voir plus
+						See more
 					</span>
 					<span className="bg-white  rounded-2xl">
 						<svg

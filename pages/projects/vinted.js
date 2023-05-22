@@ -24,7 +24,7 @@ export default function DomaineAventurier() {
 				<title>Project | Vinted clone</title>
 				<meta
 					name="description"
-					content="Vinted Clone - Fullstack React js | CRUD / BD MongoDb / Stripe payment"
+					content="Vinted Clone - Fullstack React js | CRUD / MongoDb / Stripe payment"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Vinted"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Vinted Clone"
-						textIntro="Fullstack React js | CRUD / BD MongoDb / Stripe payment"
+						textIntro="Fullstack React js | CRUD / MongoDb / Stripe payment"
 						urlIntro="vinted-frontend-manuelf.netlify.app"
 						urlDetailIntro="https://vinted-frontend-manuelf.netlify.app/"
 					/>
