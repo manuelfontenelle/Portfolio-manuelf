@@ -12,7 +12,7 @@ const Footer = () => {
 	useEffect(() => {}, [])
 
 	return (
-		<nav className="border-t-[1px] border-[#222222]  dark:border-[#222222] pt-9 md:pt-4">
+		<nav className="border-t-[1px] border-[#DCDAD9]  dark:border-[#222222] pt-9 md:pt-4">
 			<div className="flex flex-col sm:flex-row items-left justify-start md:items-center md:justify-between dark:text-[#222222] text-[#DCDAD9] ">
 				<div className=" flex flex-col sm:flex-row items-left gap-3 sm:gap-5 font-medium  text-xs md:text-sm uppercase font-Inter leading-4">
 					<a

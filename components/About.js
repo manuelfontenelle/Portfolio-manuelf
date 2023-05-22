@@ -163,7 +163,7 @@ const About = () => {
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							Tools
 						</div>
-						<div className=" sm:w-[48%]  font-Inter  font-bold  text-2xl sm:text-5xl flex flex-col sm:gap-1">
+						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1">
 							<span>JAVASCRIPT</span>
 							<span>HTML</span>
 							<span>CSS / SCSS</span>
