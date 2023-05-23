@@ -28,7 +28,7 @@ const Intro = () => {
 							<br />
 							Do not hesitate to contact me.
 						</div>
-						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px]">
+						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md">
 							<Image
 								src={manuImg}
 								className="h-full w-full object-cover rounded-md"
