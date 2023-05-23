@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Marvel"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marvel Library"
-						textIntro="Fullstack React js | Characters / Comics / Favorites"
+						textIntro="Full Stack React Js Web App"
 						urlIntro="marvel-manuelf.netlify.app"
 						urlDetailIntro="https://marvel-manuelf.netlify.app/"
 					/>
@@ -49,7 +49,14 @@ export default function DomaineAventurier() {
 					id="aboutProject"
 					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<About />
+					<About
+						desc1={"Marvel Library web App realisation"}
+						desc2={" React Js | Node Js | Call Api "}
+						client={"Marvel"}
+						role={"Web Developer"}
+						year={"2023"}
+						country={"France"}
+					/>
 				</section>
 				<section
 					id="gallery"
@@ -73,7 +80,10 @@ export default function DomaineAventurier() {
 					id="navProject"
 					className=" pt-4 md:pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<NavProject />
+					<NavProject
+						prevUrl="/projects/vinted"
+						nextUrl="/projects/marcFontenelle"
+					/>
 				</section>
 
 				<section

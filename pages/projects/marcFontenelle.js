@@ -49,7 +49,14 @@ export default function DomaineAventurier() {
 					id="aboutProject"
 					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<About />
+					<About
+						desc1={"Marc Fontenelle website realisation"}
+						desc2={"Figma | Html | Css | Js | Node Js | Nodemailer "}
+						client={"Marc Fontenelle"}
+						role={"Web Designer & Web Developer"}
+						year={"2022"}
+						country={"France"}
+					/>
 				</section>
 				<section
 					id="gallery"
@@ -73,7 +80,10 @@ export default function DomaineAventurier() {
 					id="navProject"
 					className=" pt-4 md:pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<NavProject />
+					<NavProject
+						prevUrl="/projects/marvel"
+						nextUrl="/projects/domaineAventurier"
+					/>
 				</section>
 
 				<section

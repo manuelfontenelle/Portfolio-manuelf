@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 
-const NavProject = () => {
+const NavProject = ({ prevUrl, nextUrl }) => {
 	useEffect(() => {}, [])
 
 	return (
@@ -14,7 +14,7 @@ const NavProject = () => {
 					<div className="flex justify-between h-[135px] md:h-[350px] text-center border-t-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] text-xl uppercase font-regular mt-10 text-[#DCDAD9]  dark:text-[#222222] flex-row">
 						<div className="flex items-center justify-center w-[50%]  border-r-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] ">
 							<a
-								href="#"
+								href={prevUrl}
 								className="flex flex-col items-start text-white hover:text-[#27e193] hover:textBorder prevBtnContainer"
 							>
 								<span className="font-SofiaSans  md:text-9xl leading-none text-transparent textBorder tracking-[-0.03em] prevBtn dark:hidden">
@@ -30,7 +30,7 @@ const NavProject = () => {
 						</div>
 						<div className="flex items-center justify-center text-center w-[50%]">
 							<a
-								href="#"
+								href={nextUrl}
 								className="flex flex-col  items-start text-white hover:text-[#27e193] "
 							>
 								<span className="font-SofiaSans text-4xl md:text-9xl leading-none tracking-[-0.03em]">

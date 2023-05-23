@@ -18,7 +18,12 @@ const ProjectBig = ({ img, linkUrl }) => {
 				onMouseLeave={onMouseLeave}
 			>
 				<div
-					className={`absolute left-10 flex justify-between gap-4 transition-all ease-in z-10	${
+					className={`absolute w-full h-full top-0 left-0 bg-opacity-30 bg-black z-10 transition-all ease-in	${
+						isHovering ? "bg-opacity-30" : "bg-opacity-0 "
+					}`}
+				></div>
+				<div
+					className={`absolute left-10 flex justify-between gap-4 transition-all ease-in z-20	${
 						isHovering ? "bottom-10" : "bottom-[-30%] "
 					}`}
 				>

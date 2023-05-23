@@ -40,7 +40,7 @@ export default function DomaineAventurier() {
 						descAlt={"Vinted"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Vinted Clone"
-						textIntro="Fullstack React js | CRUD / MongoDb / Stripe payment"
+						textIntro="Full Stack React js Web App"
 						urlIntro="vinted-frontend-manuelf.netlify.app"
 						urlDetailIntro="https://vinted-frontend-manuelf.netlify.app/"
 					/>
@@ -49,7 +49,14 @@ export default function DomaineAventurier() {
 					id="aboutProject"
 					className="pb-8 md:pb-16 pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<About />
+					<About
+						desc1={"Vinted Clone web App realisation"}
+						desc2={" React Js | Node Js | Mongo DB | CRUD | Stripe payment"}
+						client={"Vinted"}
+						role={"Web Developer"}
+						year={"2023"}
+						country={"France"}
+					/>
 				</section>
 				<section
 					id="gallery"
@@ -73,7 +80,10 @@ export default function DomaineAventurier() {
 					id="navProject"
 					className=" pt-4 md:pt-8 dark:bg-[#222222] bg-[#213B86] "
 				>
-					<NavProject />
+					<NavProject
+						prevUrl="/projects/cigaleConstruction"
+						nextUrl="/projects/marvel"
+					/>
 				</section>
 
 				<section
