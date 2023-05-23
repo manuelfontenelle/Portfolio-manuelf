@@ -18,16 +18,14 @@ const ProjectSmall = ({ img, linkUrl }) => {
 				onMouseLeave={onMouseLeave}
 			>
 				<div
-					className={`absolute bottom-10 flex justify-between gap-4 transition-all ease-in-out	 ${
-						isHovering
-							? "animatedBtnGrp"
-							: "left-10 md:left-[-90%] xl:left-[-50%]"
+					className={`absolute left-10 flex justify-between gap-4 transition-all ease-in z-10	 ${
+						isHovering ? "bottom-10" : "bottom-[-30%]"
 					}`}
 				>
 					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-lg lg:text-2xl flex items-center">
 						See more
 					</span>
-					<span className="bg-white  rounded-2xl">
+					<span className="bg-white rounded-full">
 						<svg
 							viewBox="0 0 26 25"
 							fill="none"
@@ -55,8 +53,10 @@ const ProjectSmall = ({ img, linkUrl }) => {
 
 				<Image
 					src={img}
-					className="h-full w-full object-cover rounded-md"
-					alt="Picture of the author"
+					className={`h-full w-full object-cover rounded-md transition-all ease-in	 ${
+						isHovering ? "scale-110 rotate-2" : "scale-100"
+					}`}
+					alt={img}
 				/>
 			</Link>
 		</>
