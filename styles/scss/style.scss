@@ -193,10 +193,14 @@ header {
 	justify-content: flex-start;
 	white-space: nowrap;
 	animation: Scroll 12000ms linear infinite;
-	// margin-right: 50px;
-	// width: 100%;
-	&.noMargin {
-		margin-right: 0;
+}
+.messageDefilantHover {
+	display: flex;
+	justify-content: flex-start;
+	white-space: nowrap;
+	&:hover,
+	&:focus {
+		animation: Scroll 30s linear infinite;
 	}
 }
 
