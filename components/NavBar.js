@@ -9,10 +9,35 @@ function darkModeListener() {
 }
 
 const NavBar = () => {
-	useEffect(() => {}, [])
+	useEffect(() => {
+		const body = document.body
+		const header = document.querySelector("header")
+
+		const main = document.querySelector("main")
+		const headerHeight = document.querySelector("header").offsetHeight
+		main.style.top = headerHeight + "px"
+		let lastScroll = 0
+		window.addEventListener("scroll", () => {
+			// console.log("scroll")
+			let currentScroll = window.pageYOffset
+			if (currentScroll - lastScroll > 0) {
+				header.classList.add("scroll-down")
+				header.classList.remove("scroll-up")
+			} else if (currentScroll == 0) {
+				// console.log("test")
+				header.classList.remove("scroll-up")
+				header.classList.remove("scroll-down")
+			} else {
+				// scrolled up -- header show
+				header.classList.add("scroll-up")
+				header.classList.remove("scroll-down")
+			}
+			lastScroll = currentScroll
+		})
+	}, [])
 
 	return (
-		<nav className="border-b-[1px] border-[#213B86]  dark:border-[#DCDAD9] pb-4">
+		<nav className="border-b-[1px] border-[#213B86]  dark:border-[#DCDAD9] pb-4 borderNone">
 			<div className="flex items-center justify-between dark:text-[#DCDAD9] text-[#213B86]">
 				<Link href="/">
 					<h1 className="  font-bold  text-sm uppercase font-Inter  leading-4">

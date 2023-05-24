@@ -24,7 +24,7 @@ const ProjectBig = ({ img, linkUrl }) => {
 				></div>
 				<div
 					className={`absolute left-10 flex justify-between gap-4 transition-all ease-in z-20	${
-						isHovering ? "bottom-10" : "bottom-[-30%] "
+						isHovering ? "bottom-10" : "bottom-10 lg:bottom-[-30%]"
 					}`}
 				>
 					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-lg lg:text-2xl flex items-center">

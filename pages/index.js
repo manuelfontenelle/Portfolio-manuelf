@@ -42,10 +42,12 @@ export default function Home() {
 			</Head>
 
 			<main className=" dark:bg-[#222222] bg-[#27e193] overflow-x-hidden ">
-				<section id="intro" className="pt-6 pb-8  sm:pb-16">
-					<div className="container">
-						<NavBar />
-					</div>
+				<section id="intro" className="pt-14 pb-8 sm:pb-16">
+					<header className="bg-[#27e193] dark:bg-[#222222] pt-5 z-20">
+						<div className="container">
+							<NavBar />
+						</div>
+					</header>
 					<Intro />
 				</section>
 				<section
