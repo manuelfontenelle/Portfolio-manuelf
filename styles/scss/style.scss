@@ -182,3 +182,29 @@ header {
 .objectPositionLeft15 {
 	object-position: 15%;
 }
+
+.text-wrapper {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.messageDefilant {
+	display: flex;
+	justify-content: flex-start;
+	white-space: nowrap;
+	animation: Scroll 12000ms linear infinite;
+	// margin-right: 50px;
+	// width: 100%;
+	&.noMargin {
+		margin-right: 0;
+	}
+}
+
+@keyframes Scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}

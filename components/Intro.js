@@ -10,9 +10,12 @@ const Intro = () => {
 	return (
 		<>
 			<div>
-				<h2 className="mt-3 font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase ml-[-5%] leading-none whitespace-nowrap tracking-[-0.03em]">
-					Web developer
+				<h2 className="mt-3 font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase  leading-none whitespace-nowrap tracking-[-0.03em] flex justify-start">
+					<div className="messageDefilant">Web developer &nbsp;</div>
+					<div className="messageDefilant">Web developer &nbsp;</div>
+					<div className="messageDefilant">Web developer &nbsp;</div>
 				</h2>
+
 				<div className="container">
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9]">
