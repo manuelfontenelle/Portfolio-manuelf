@@ -20,7 +20,7 @@ const NavBar = () => {
 		window.addEventListener("scroll", () => {
 			if (
 				window.innerHeight + window.scrollY >=
-				(document.body.offsetHeight || document.body.offsetHeight + 50)
+				(document.body.offsetHeight || document.body.offsetHeight - 100)
 			) {
 				header.classList.add("scroll-down")
 				header.classList.remove("scroll-up")
