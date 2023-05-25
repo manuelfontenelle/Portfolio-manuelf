@@ -4,6 +4,9 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 import Competence from "./Competence"
+import { gsap } from "gsap"
+// import { ScrollTrigger } from "gsap/all"
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
 const About = () => {
 	useEffect(() => {}, [])
@@ -248,8 +251,8 @@ const About = () => {
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							Tools
 						</div>
-						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1">
-							<span>JAVASCRIPT</span>
+						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1 reveal">
+							<span className="reveal">JAVASCRIPT</span>
 							<span>HTML</span>
 							<span>CSS / SCSS</span>
 							<span>REACT JS</span>
@@ -264,6 +267,7 @@ const About = () => {
 							<span>HEROKU</span>
 							<span>VUE JS</span>
 							<span>PHP</span>
+							<div className="endAnim"></div>
 						</div>
 					</div>
 				</div>

@@ -23,7 +23,7 @@ const NavBar = () => {
 			if (currentScroll - lastScroll > 0) {
 				header.classList.add("scroll-down")
 				header.classList.remove("scroll-up")
-			} else if (currentScroll == 0) {
+			} else if (currentScroll === 0) {
 				// console.log("test")
 				header.classList.remove("scroll-up")
 				header.classList.remove("scroll-down")
