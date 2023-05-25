@@ -23,12 +23,12 @@ const NavBar = () => {
 			if (currentScroll - lastScroll > 0) {
 				header.classList.add("scroll-down")
 				header.classList.remove("scroll-up")
-			} else if (currentScroll == 0) {
-				header.classList.remove("scroll-up")
-				header.classList.remove("scroll-down")
 			} else if (window.pageYOffset < 50) {
 				console.log("test")
 				header.classList.add("scroll-up")
+				header.classList.remove("scroll-down")
+			} else if (currentScroll == 0) {
+				header.classList.remove("scroll-up")
 				header.classList.remove("scroll-down")
 			} else {
 				// scrolled up -- header show
