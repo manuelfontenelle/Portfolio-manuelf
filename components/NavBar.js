@@ -18,23 +18,23 @@ const NavBar = () => {
 		main.style.top = headerHeight + "px"
 		let lastScroll = 0
 		window.addEventListener("scroll", () => {
-			// console.log("scroll")
-			let currentScroll = window.pageYOffset
-			if (currentScroll - lastScroll > 0) {
-				header.classList.add("scroll-down")
-				header.classList.remove("scroll-up")
-			} else if (currentScroll == 0 || window.pageYOffset < 50) {
-				header.classList.remove("scroll-up")
-				header.classList.remove("scroll-down")
-			} else {
-				// scrolled up -- header show
-				header.classList.add("scroll-up")
-				header.classList.remove("scroll-down")
-			}
 			console.log(window.pageYOffset)
-			lastScroll = currentScroll
-
-			// console.log(currentScroll)
+			if (window.pageYOffset > 50) {
+				let currentScroll = window.pageYOffset
+				if (currentScroll - lastScroll > 0) {
+					header.classList.add("scroll-down")
+					header.classList.remove("scroll-up")
+				} else if (currentScroll == 0) {
+					header.classList.remove("scroll-up")
+					header.classList.remove("scroll-down")
+				} else {
+					// scrolled up -- header show
+					header.classList.add("scroll-up")
+					header.classList.remove("scroll-down")
+				}
+				console.log(window.pageYOffset)
+				lastScroll = currentScroll
+			}
 		})
 	}, [])
 
