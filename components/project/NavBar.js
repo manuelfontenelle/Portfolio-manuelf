@@ -34,7 +34,7 @@ const NavBar = () => {
 					header.classList.remove("scroll-down")
 				} else if (
 					window.innerHeight + window.scrollY >
-					document.body.offsetHeight - 200
+					document.body.offsetHeight - 70
 				) {
 					header.classList.add("scroll-down")
 					header.classList.remove("scroll-up")
