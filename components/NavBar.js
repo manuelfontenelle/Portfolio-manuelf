@@ -51,7 +51,7 @@ const NavBar = () => {
 						Manuel Fontenelle
 					</h1>
 				</Link>
-				<div className="rightPart flex items-center gap-5 z">
+				<div className="rightPart flex items-center gap-5 ">
 					<div id="toggle-darkmode-container" className="w-11 h-5 ">
 						<input
 							type="checkbox"
