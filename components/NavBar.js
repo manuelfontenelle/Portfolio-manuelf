@@ -18,7 +18,11 @@ const NavBar = () => {
 		main.style.top = headerHeight + "px"
 		let lastScroll = 0
 		window.addEventListener("scroll", () => {
-			// console.log(window.pageYOffset)
+			if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+				header.classList.add("scroll-down")
+				header.classList.remove("scroll-up")
+			}
+			console.log(window.pageYOffset)
 			let currentScroll = window.pageYOffset
 			if (currentScroll == 0) {
 				header.classList.remove("scroll-up")

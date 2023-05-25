@@ -4,9 +4,8 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 import Competence from "./Competence"
-import { gsap } from "gsap"
-// import { ScrollTrigger } from "gsap/all"
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
+// import { gsap } from "gsap"
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
 const About = () => {
 	useEffect(() => {}, [])
