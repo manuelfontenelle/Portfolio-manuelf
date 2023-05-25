@@ -23,11 +23,7 @@ const NavBar = () => {
 			if (currentScroll - lastScroll > 0) {
 				header.classList.add("scroll-down")
 				header.classList.remove("scroll-up")
-			} else if (window.pageYOffset < 50) {
-				console.log("test")
-				header.classList.add("scroll-up")
-				header.classList.remove("scroll-down")
-			} else if (currentScroll == 0) {
+			} else if (currentScroll == 0 || window.pageYOffset < 50) {
 				header.classList.remove("scroll-up")
 				header.classList.remove("scroll-down")
 			} else {
@@ -35,10 +31,10 @@ const NavBar = () => {
 				header.classList.add("scroll-up")
 				header.classList.remove("scroll-down")
 			}
-			console.log(lastScroll)
+			console.log(window.pageYOffset)
 			lastScroll = currentScroll
 
-			console.log(currentScroll)
+			// console.log(currentScroll)
 		})
 	}, [])
 
