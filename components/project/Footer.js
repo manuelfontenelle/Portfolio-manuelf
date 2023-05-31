@@ -9,15 +9,17 @@ const Footer = () => {
 
 	return (
 		<nav className="border-t-[1px] border-[#DCDAD9]   pt-9 md:pt-4">
-			<div className="flex flex-col sm:flex-row items-left justify-start md:items-center md:justify-between  text-[#DCDAD9] ">
+			<div className="flex flex-col sm:flex-row items-left justify-start md:items-center md:justify-between  text-[#DCDAD9]">
 				<div className=" flex flex-col sm:flex-row items-left gap-3 sm:gap-5 font-medium  text-xs md:text-sm uppercase font-Inter leading-4">
 					<a
+						target="_blank"
 						href="https://www.linkedin.com/in/manuel-fontenelle-b406b563/"
 						className="hover:text-[#27e193]"
 					>
 						Linkedin
 					</a>
 					<a
+						target="_blank"
 						href="https://github.com/manuelfontenelle"
 						className="hover:text-[#27e193]"
 					>
