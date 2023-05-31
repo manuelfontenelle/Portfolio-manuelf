@@ -96,7 +96,10 @@ export default function DomaineAventurier() {
 						<Footer />
 					</div>
 				</section>
-				<section id="BackToTop" className="dark:bg-[#DCDAD9] bg-[#213B86] ">
+				<section
+					id="BackToTop"
+					className="dark:bg-[#DCDAD9] hover:dark:bg-[#222222] bg-[#213B86] hover:bg-[#27E193]"
+				>
 					<BackToTop />
 				</section>
 			</main>
