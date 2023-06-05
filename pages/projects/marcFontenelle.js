@@ -53,7 +53,7 @@ export default function DomaineAventurier() {
 				>
 					<About
 						desc1={"Marc Fontenelle website realisation"}
-						desc2={"Figma | Html | Css | Js | Node Js | Nodemailer "}
+						desc2={"Figma • Html • Css • Js • Node Js • Nodemailer "}
 						client={"Marc Fontenelle"}
 						role={"Web Designer & Web Developer"}
 						year={"2022"}

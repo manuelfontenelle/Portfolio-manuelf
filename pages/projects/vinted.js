@@ -53,7 +53,7 @@ export default function DomaineAventurier() {
 				>
 					<About
 						desc1={"Vinted Clone web App realisation"}
-						desc2={" React Js | Node Js | Mongo DB | CRUD | Stripe payment"}
+						desc2={" React Js • Node Js • Mongo DB • CRUD • Stripe payment"}
 						client={"Vinted"}
 						role={"Web Developer"}
 						year={"2023"}
@@ -80,7 +80,7 @@ export default function DomaineAventurier() {
 
 				<section
 					id="navProject"
-					className=" pt-4 md:pt-8 dark:bg-[#222222] bg-[#213B86] "
+					className=" pt-4 md:pt-8 dark:bg-[#222222] bg-[#213B86]"
 				>
 					<NavProject
 						prevUrl="/projects/cigaleConstruction"

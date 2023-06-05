@@ -53,7 +53,7 @@ export default function DomaineAventurier() {
 				>
 					<About
 						desc1={"Marvel Library web App realisation"}
-						desc2={" React Js | Node Js | Call Api "}
+						desc2={" React Js • Node Js • Call Api "}
 						client={"Marvel"}
 						role={"Web Developer"}
 						year={"2023"}

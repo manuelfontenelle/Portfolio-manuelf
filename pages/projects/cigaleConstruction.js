@@ -53,7 +53,7 @@ export default function DomaineAventurier() {
 				>
 					<About
 						desc1={"Cigale Construction website realisation"}
-						desc2={"Figma | React Js | Next Js | Node Js | Nodemailer "}
+						desc2={"Figma • React Js • Next Js • Node Js • Nodemailer "}
 						client={"Cigale Construction"}
 						role={"Web Designer & Web Developer"}
 						year={"2023"}
