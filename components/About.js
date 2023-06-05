@@ -16,7 +16,7 @@ const About = () => {
 			// markers: true,
 			onEnter: () => console.log("enter"),
 			onLeave: () => console.log("leave"),
-			start: "-500px center",
+			start: "-450px center",
 			end: "-300px center",
 			scrub: 1,
 		})
@@ -336,7 +336,7 @@ const About = () => {
 							/>
 						</div>
 					</div>
-					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] xl:pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							Tools
 						</div>
