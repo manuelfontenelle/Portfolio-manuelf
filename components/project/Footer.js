@@ -7,6 +7,10 @@ import React, { useState, useEffect } from "react"
 const Footer = () => {
 	useEffect(() => {}, [])
 
+	const getYear = () => {
+		return new Date().getFullYear()
+	}
+
 	return (
 		<nav className="border-t-[1px] border-[#DCDAD9]   pt-9 md:pt-4">
 			<div className="flex flex-col sm:flex-row items-left justify-start md:items-center md:justify-between  text-[#DCDAD9]">
@@ -40,7 +44,7 @@ const Footer = () => {
 				</div>
 
 				<div className="mt-5 sm:mt-0 font-medium  text-xs md:text-sm font-Inter ">
-					©2023 Manuel Fontenelle
+					©{getYear()} Manuel Fontenelle
 				</div>
 			</div>
 		</nav>

@@ -4,11 +4,99 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 import Competence from "./Competence"
-// import { gsap } from "gsap"
-// import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
 const About = () => {
-	useEffect(() => {}, [])
+	useEffect(() => {
+		gsap.registerPlugin(ScrollTrigger)
+
+		ScrollTrigger.defaults({
+			toggleActions: "restart pause reverse pause",
+			// markers: true,
+			onEnter: () => console.log("enter"),
+			onLeave: () => console.log("leave"),
+			start: "-500px center",
+			end: "20px center",
+			scrub: 1,
+		})
+
+		gsap.to(".text1", {
+			scrollTrigger: ".text1",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text2", {
+			scrollTrigger: ".text2",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text3", {
+			scrollTrigger: ".text3",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text4", {
+			scrollTrigger: ".text4",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text5", {
+			scrollTrigger: ".text5",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text6", {
+			scrollTrigger: ".text6",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text7", {
+			scrollTrigger: ".text7",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text8", {
+			scrollTrigger: ".text8",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text9", {
+			scrollTrigger: ".text9",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text10", {
+			scrollTrigger: ".text10",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text11", {
+			scrollTrigger: ".text11",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text12", {
+			scrollTrigger: ".text12",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text13", {
+			scrollTrigger: ".text13",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text14", {
+			scrollTrigger: ".text14",
+			x: 0,
+			duration: 2,
+		})
+		gsap.to(".text15", {
+			scrollTrigger: ".text15",
+			x: 0,
+			duration: 2,
+		})
+	}, [])
 
 	return (
 		<>
@@ -163,7 +251,8 @@ const About = () => {
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							Here's what i do
 						</div>
-						<div className="sm:w-[48%] gap-5 flex justify-between flex-wrap">
+
+						<div className="sm:w-[48%] gap-5 flex justify-between flex-wrap ">
 							<Competence
 								title="front-end"
 								svg={
@@ -224,6 +313,7 @@ const About = () => {
 								desc1="CMS is the acronym for Content Management System. It is an online interface through which it is possible to easily manage and modify a website, without the need for technical knowledge of computer language."
 								desc2="Strapi is a platform with many tools that allow flexible use from all frontend frameworks"
 							/>
+							<div className="startAnim hidden"></div>
 							<Competence
 								title="ui/ux design"
 								svg={
@@ -250,23 +340,22 @@ const About = () => {
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							Tools
 						</div>
-						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1 reveal">
-							<span className="reveal">JAVASCRIPT</span>
-							<span>HTML</span>
-							<span>CSS / SCSS</span>
-							<span>REACT JS</span>
-							<span>NEXT JS</span>
-							<span>GSAP</span>
-							<span>STAPI</span>
-							<span>THREEJS</span>
-							<span>WORDPRESS</span>
-							<span>FIGMA</span>
-							<span>VERCEL</span>
-							<span>NETLIFY</span>
-							<span>HEROKU</span>
-							<span>VUE JS</span>
-							<span>PHP</span>
-							<div className="endAnim"></div>
+						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1  relative">
+							<span className="text1  textAnim">JAVASCRIPT</span>
+							<span className="text2  textAnim">HTML</span>
+							<span className="text3  textAnim">CSS / SCSS</span>
+							<span className="text4  textAnim">REACT JS</span>
+							<span className="text5  textAnim">NEXT JS</span>
+							<span className="text6  textAnim">GSAP</span>
+							<span className="text7  textAnim">STAPI</span>
+							<span className="text8  textAnim">THREEJS</span>
+							<span className="text9  textAnim">WORDPRESS</span>
+							<span className="text10  textAnim">FIGMA</span>
+							<span className="text11  textAnim">VERCEL</span>
+							<span className="text12  textAnim">NETLIFY</span>
+							<span className="text13  textAnim">HEROKU</span>
+							<span className="text14  textAnim">VUE JS</span>
+							<span className="text15  textAnim">PHP</span>
 						</div>
 					</div>
 				</div>

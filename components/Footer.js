@@ -4,12 +4,12 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 
-function darkModeListener() {
-	document.documentElement.classList.toggle("dark")
-}
-
 const Footer = () => {
 	useEffect(() => {}, [])
+
+	const getYear = () => {
+		return new Date().getFullYear()
+	}
 
 	return (
 		<nav className="border-t-[1px] border-[#DCDAD9]  dark:border-[#222222] pt-9 md:pt-4">
@@ -42,7 +42,7 @@ const Footer = () => {
 				</div>
 
 				<div className="mt-5 sm:mt-0 font-medium  text-xs md:text-sm font-Inter ">
-					©2023 Manuel Fontenelle
+					©{getYear()} Manuel Fontenelle
 				</div>
 			</div>
 		</nav>
