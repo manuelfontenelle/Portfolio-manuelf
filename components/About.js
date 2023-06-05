@@ -17,84 +17,84 @@ const About = () => {
 			onEnter: () => console.log("enter"),
 			onLeave: () => console.log("leave"),
 			start: "-500px center",
-			end: "20px center",
+			end: "-300px center",
 			scrub: 1,
 		})
 
 		gsap.to(".text1", {
 			scrollTrigger: ".text1",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text2", {
 			scrollTrigger: ".text2",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text3", {
 			scrollTrigger: ".text3",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text4", {
 			scrollTrigger: ".text4",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text5", {
 			scrollTrigger: ".text5",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text6", {
 			scrollTrigger: ".text6",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text7", {
 			scrollTrigger: ".text7",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text8", {
 			scrollTrigger: ".text8",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text9", {
 			scrollTrigger: ".text9",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text10", {
 			scrollTrigger: ".text10",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text11", {
 			scrollTrigger: ".text11",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text12", {
 			scrollTrigger: ".text12",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text13", {
 			scrollTrigger: ".text13",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text14", {
 			scrollTrigger: ".text14",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 		gsap.to(".text15", {
 			scrollTrigger: ".text15",
 			x: 0,
-			duration: 2,
+			duration: 1,
 		})
 	}, [])
 
