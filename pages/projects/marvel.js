@@ -55,7 +55,7 @@ export default function DomaineAventurier() {
 						desc1={"Marvel Library web App realisation"}
 						desc2={" React Js • Node Js • Call Api "}
 						client={"Marvel"}
-						role={"Web Developer"}
+						role={"Web designer & Web Developer"}
 						year={"2023"}
 						country={"France"}
 					/>
