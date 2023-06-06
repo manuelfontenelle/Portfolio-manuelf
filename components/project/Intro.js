@@ -28,14 +28,14 @@ const Intro = ({
 							<a
 								href={urlDetailIntro}
 								target="_blank"
-								className="linkProject flex items-center mt-5 text-[#213B86] dark:text-[#222222] font-bold text-md lg:text-xl leading-1 break-all 
+								className="linkProject flex items-center mt-5 text-[#213B86] dark:text-[#222222] font-bold text-md lg:text-xl leading-1 break-all underline lg:no-underline
 				
      hover:text-[#101D43] hover:dark:text-gray-400
      focus:text-[#101D43] focus:dark:text-gray-400
      active:text-[#101D43]"
 							>
 								{urlIntro}
-								<span className="hidden sm:block">
+								<span className="hidden lg:block">
 									<svg
 										viewBox="0 0 26 25"
 										fill="none"
