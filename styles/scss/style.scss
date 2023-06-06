@@ -238,6 +238,20 @@ header {
 	}
 }
 
-.textAnim {
+.competencesGrp span {
 	transform: translate3d(150%, 0px, 0px);
+}
+
+.titleAnim {
+	transform: translate3d(0, 100%, 0px);
+	opacity: 0;
+}
+
+.texteAnim {
+	opacity: 0;
+}
+
+.boxAnim {
+	scale: 0.5;
+	opacity: 0;
 }
