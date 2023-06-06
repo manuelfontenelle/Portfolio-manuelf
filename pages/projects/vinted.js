@@ -55,7 +55,7 @@ export default function DomaineAventurier() {
 						desc1={"Vinted Clone web App realisation"}
 						desc2={" React Js • Node Js • Mongo DB • CRUD • Stripe payment"}
 						client={"Vinted"}
-						role={"Web designer & Web Developer"}
+						role={"Web Designer & Web Developer"}
 						year={"2023"}
 						country={"France"}
 					/>
