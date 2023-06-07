@@ -109,6 +109,9 @@ header {
 }
 .svg-arrow {
 	width: 18px;
+	&.smallArrow {
+		width: 16px;
+	}
 }
 // .animatedBtnGrp {
 // 	bottom: 2.5rem;
