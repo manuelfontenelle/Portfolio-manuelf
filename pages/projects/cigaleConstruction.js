@@ -8,7 +8,7 @@ import About from "../../components/project/About"
 import Gallery from "../../components/project/Gallery"
 import NavProject from "../../components/project/NavProject"
 
-import Footer from "/components/project/Footer"
+import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
 import cigaleConstruction1 from "../../public/projects/cigale-construction1.jpg"
 import cigaleConstruction2 from "../../public/projects/cigale-construction2.jpg"

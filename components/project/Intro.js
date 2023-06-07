@@ -22,7 +22,7 @@ const Intro = ({
 					<h2 className="mt-10 font-Inter font-black text-3xl lg:text-7xl text-[#213B86] dark:text-[#222222] uppercase  leading-none  break-words">
 						{titreIntro}
 					</h2>
-					<div className="flex justify-between mt-10 flex-col  gap-10 sm:gap-0">
+					<div className="flex justify-between mt-8 flex-col  gap-10 sm:gap-0">
 						<div className=" uppercase font-Inter text-sm  font-bold text-[#213B86]  dark:text-[#222222]">
 							<span className="block lg:w-[55%] xl:w-[40%]">{textIntro}</span>
 							<a
@@ -64,7 +64,7 @@ const Intro = ({
 							</a>
 						</div>
 					</div>
-					<div className="xl:h-[735px] w-full mt-5">
+					<div className="xl:h-[735px] w-full mt-8">
 						<Image
 							src={img1}
 							className={`h-full w-full object-contain xl:object-cover rounded-md ${objectPosition}`}

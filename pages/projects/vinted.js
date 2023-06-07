@@ -8,7 +8,7 @@ import About from "../../components/project/About"
 import Gallery from "../../components/project/Gallery"
 import NavProject from "../../components/project/NavProject"
 
-import Footer from "/components/project/Footer"
+import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
 import vinted1 from "../../public/projects/vinted1.jpg"
 import vinted2 from "../../public/projects/vinted2.jpg"

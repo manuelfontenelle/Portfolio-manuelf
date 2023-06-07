@@ -8,7 +8,7 @@ import About from "../../components/project/About"
 import Gallery from "../../components/project/Gallery"
 import NavProject from "../../components/project/NavProject"
 
-import Footer from "/components/project/Footer"
+import Footer from "/components/Footer"
 import BackToTop from "/components/BackToTop"
 import marcFontenelle1 from "../../public/projects/marc-fontenelle1.jpg"
 import marcFontenelle2 from "../../public/projects/marc-fontenelle2.jpg"

@@ -116,9 +116,12 @@ const NavBar = () => {
 						</label>
 					</div>
 
-					<a href="#" className="uppercase font-extrabold  text-base">
-						Menu
-					</a>
+					<Link
+						href="/projects"
+						className="uppercase font-extrabold  text-base"
+					>
+						Projects
+					</Link>
 				</div>
 			</div>
 		</nav>

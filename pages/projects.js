@@ -5,22 +5,19 @@ import { Inter } from "@next/font/google"
 import NavBar from "../components/NavBar"
 import Intro from "../components/Intro"
 import About from "../components/About"
-import Projects from "../components/Projects"
+import ProjectsFull from "../components/ProjectsFull"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import BackToTop from "../components/BackToTop"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export default function Home() {
+export default function Projects() {
 	return (
 		<>
 			<Head>
-				<title>Manuel Fontenelle | Développeur Full-stack ReactJs/NodeJs</title>
-				<meta
-					name="description"
-					content="Manuel Fontenelle | Développeur Full-stack ReactJs/NodeJs"
-				/>
+				<title>Manuel Fontenelle | Projects</title>
+				<meta name="description" content="Manuel Fontenelle | Projects" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
 
@@ -42,25 +39,19 @@ export default function Home() {
 			</Head>
 
 			<main className=" dark:bg-[#222222] bg-[#27e193] overflow-x-hidden ">
-				<section id="intro" className="pt-14 pb-8 sm:pb-16">
+				<section id="intro" className="pt-14 pb-8 ">
 					<header className="bg-[#27e193] dark:bg-[#222222] pt-5 z-30 ">
 						<div className="container">
 							<NavBar />
 						</div>
 					</header>
-					<Intro />
 				</section>
-				<section
-					id="about"
-					className="pb-16 pt-8 dark:bg-[#DCDAD9] bg-[#213B86] "
-				>
-					<About />
-				</section>
+
 				<section
 					id="Projects"
-					className="pb-24 lg:mb-16 pt-8 md:mb-32 dark:bg-[#222222] bg-[#27e193] "
+					className="pb-24 lg:mb-16 md:mb-32 dark:bg-[#222222] bg-[#27e193]"
 				>
-					<Projects />
+					<ProjectsFull />
 				</section>
 				<section
 					id="Contact"

@@ -148,6 +148,23 @@ header {
 	}
 }
 
+.linkProjects {
+	.arrow-color {
+		fill: #213b86;
+		&-dark {
+			fill: #dcdad9;
+		}
+	}
+	&:hover {
+		.arrow-color {
+			fill: #101d43;
+			&-dark {
+				fill: #9ca3af;
+			}
+		}
+	}
+}
+
 .prevBtn {
 	-webkit-text-stroke: 1px #dcdad9;
 	text-shadow: 1px #dcdad9;
