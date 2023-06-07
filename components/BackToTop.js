@@ -11,7 +11,7 @@ const BackToTop = () => {
 				<div
 					onClick={scrollTop}
 					href="#"
-					className="cursor-pointer flex justify-start items-center font-SofiaSans text-[5vw] md:text-[2.5vw] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]"
+					className="cursor-pointer flex justify-start items-center font-SofiaSans text-[7vw] md:text-[2.5vw] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]"
 				>
 					<div className="messageDefilantHover ml-[-40px] p-4">
 						<BackToTopElem></BackToTopElem>

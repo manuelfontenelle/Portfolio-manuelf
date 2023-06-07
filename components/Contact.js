@@ -372,7 +372,7 @@ const Contact = () => {
 						</svg>
 					</div>
 					<div className="sm:w-[48%] text-[#DCDAD9] dark:text-[#222222] ">
-						<h3 className="font-SofiaSans text-5xl uppercase tracking-[-0.03em]">
+						<h3 className="font-SofiaSans text-5xl uppercase tracking-[-0.03em] break-all sm:break-keep">
 							YOU HAVE A PROJECT OR WANT TO COLLABORATE?
 						</h3>
 						<p className="font-Inter font-medium mt-2 text-sm sm:text-base ">

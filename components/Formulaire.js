@@ -175,7 +175,7 @@ const Formulaire = () => {
      mt-5
  
      text-[#BAC8EE] dark:text-gray-400 font-black
-     text-xl
+     text-2xl
      leading-tight
      uppercase
      rounded
