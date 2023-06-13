@@ -64,7 +64,7 @@ export default function Home() {
 				</section>
 				<section
 					id="Contact"
-					className="pb-16 pt-8 md:mt-32 dark:bg-[#DCDAD9] bg-[#213B86] "
+					className="pb-16 pt-8 md:mt-32 dark:bg-[#DCDAD9] bg-[#213B86]"
 				>
 					<Contact />
 				</section>

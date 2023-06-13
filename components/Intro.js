@@ -24,7 +24,7 @@ const Intro = () => {
 							<br />
 							<br /> I have a preference for the front-end and in particular for
 							the Html, Css, Javascript languages as well as ReactJS that I can
-							combine with my skills in Graphics / Webdesign. <br />
+							combine with my skills in Graphic / Webdesign. <br />
 							<br /> I like to create innovative, minimalist and modern
 							websites, intuitive web applications, but also clean and
 							documented code! <br />
