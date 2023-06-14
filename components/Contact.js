@@ -14,7 +14,7 @@ const Contact = () => {
 
 		if (window.innerWidth > 1000) {
 			wrapper.addEventListener("mousemove", (e) => {
-				// console.log(event)
+				// console.log(e)
 				let x = e.clientX - window.innerWidth / 2
 				// console.log(x)
 				// Change the value of the divider for more or less parallax effect
