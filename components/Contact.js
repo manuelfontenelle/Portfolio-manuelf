@@ -13,13 +13,14 @@ const Contact = () => {
 		const personnageBlack = document.querySelector(".personnageBlack")
 
 		if (window.innerWidth > 1000) {
-			wrapper.addEventListener("mousemove", () => {
-				let x = event.clientX - window.innerWidth / 2
+			wrapper.addEventListener("mousemove", (e) => {
+				// console.log(event)
+				let x = e.clientX - window.innerWidth / 2
+				// console.log(x)
 				// Change the value of the divider for more or less parallax effect
 				nuages.style.transform = `translate3D(${x / 10}px, 0, 0)`
 				personnage.style.transform = `translate3D(${-x / 8.5}px, 0, 0)`
 				personnageBlack.style.transform = `translate3D(${-x / 8.5}px, 0, 0)`
-				// photo.style.transform = `translate3D(${-x / 35}px, 0, 0)`
 			})
 		}
 	}, [])
