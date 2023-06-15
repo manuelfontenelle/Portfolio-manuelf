@@ -17,13 +17,13 @@ const Footer = () => {
 				<div className=" flex flex-col sm:flex-row items-left gap-3 sm:gap-5 font-medium  text-xs md:text-sm uppercase font-Inter leading-4">
 					<a
 						href="https://www.linkedin.com/in/manuel-fontenelle-b406b563/"
-						className="hover:text-[#27e193]"
+						className="hover:text-[#27e193] dark:hover:text-gray-400"
 					>
 						Linkedin
 					</a>
 					<a
 						href="https://github.com/manuelfontenelle"
-						className="hover:text-[#27e193]"
+						className="hover:text-[#27e193] dark:hover:text-gray-400"
 					>
 						Github
 					</a>
@@ -31,14 +31,17 @@ const Footer = () => {
 						target="_blank"
 						href="/files/cv-manuelfontenelle-2023.pdf"
 						alt="cv manuel fontenelle"
-						className="hover:text-[#27e193]"
+						className="hover:text-[#27e193] dark:hover:text-gray-400"
 					>
 						Resume
 					</a>
 
-					<a href="#" className="sm:ml-20 hover:text-[#27e193]">
+					{/* <a
+						href="#"
+						className="sm:ml-20 hover:text-[#27e193] dark:hover:text-[#BAC8EE]"
+					>
 						Legal Notice
-					</a>
+					</a> */}
 				</div>
 
 				<div className="mt-5 sm:mt-0 font-medium  text-xs md:text-sm font-Inter ">

@@ -380,15 +380,14 @@ const About = () => {
 							<span className="cpt">PHP / SQL</span>
 							<span className="cpt">LARAVEL</span>
 							<span className="cpt">WORDPRESS</span>
+							<span className="cpt">STRAPI</span>
 							{/* <span className="cpt">VUE JS</span> */}
 							<span className="cpt">TAILWIND CSS</span>
-							<span className="cpt">GSAP</span>
-							<span className="cpt">THREEJS</span>
-							<span className="cpt">STRAPI</span>
+							<span className="cpt">GSAP / THREEJS</span>
 							<span className="cpt">VERCEL</span>
 							<span className="cpt">NETLIFY</span>
 							<span className="cpt">HEROKU</span>
-							<span className="cpt">GIT</span>
+							<span className="cpt">GIT / GITHUB</span>
 							<span className="cpt">FIGMA / PS / AI</span>
 						</div>
 					</div>
