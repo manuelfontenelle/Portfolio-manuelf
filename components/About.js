@@ -390,7 +390,6 @@ const About = () => {
 							<span className="cpt">HEROKU</span>
 							<span className="cpt">GIT</span>
 							<span className="cpt">FIGMA / PS / AI</span>
-							<span className="cpt"></span>
 						</div>
 					</div>
 				</div>
