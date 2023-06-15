@@ -372,20 +372,25 @@ const About = () => {
 						</div>
 						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1  competencesGrp">
 							<span className="cpt">JAVASCRIPT</span>
+							<span className="cpt">TYPESCRIPT</span>
 							<span className="cpt">HTML</span>
 							<span className="cpt">CSS / SCSS</span>
 							<span className="cpt">REACT JS</span>
 							<span className="cpt">NEXT JS</span>
-							<span className="cpt">GSAP</span>
-							<span className="cpt">STAPI</span>
-							<span className="cpt">THREEJS</span>
+							<span className="cpt">PHP / SQL</span>
+							<span className="cpt">LARAVEL</span>
 							<span className="cpt">WORDPRESS</span>
-							<span className="cpt">FIGMA</span>
+							{/* <span className="cpt">VUE JS</span> */}
+							<span className="cpt">TAILWIND CSS</span>
+							<span className="cpt">GSAP</span>
+							<span className="cpt">THREEJS</span>
+							<span className="cpt">STRAPI</span>
 							<span className="cpt">VERCEL</span>
 							<span className="cpt">NETLIFY</span>
 							<span className="cpt">HEROKU</span>
-							<span className="cpt">VUE JS</span>
-							<span className="cpt">PHP</span>
+							<span className="cpt">GIT</span>
+							<span className="cpt">FIGMA / PS / AI</span>
+							<span className="cpt"></span>
 						</div>
 					</div>
 				</div>
