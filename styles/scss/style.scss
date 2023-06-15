@@ -4,10 +4,6 @@ $primary-color: #ff7b54;
 $secondary-color: #27e193;
 $third-color: #222222;
 
-// .testttt {
-//   color: $primary-color;
-// }
-
 .introImgContainer {
 	position: relative;
 	overflow: hidden;
@@ -17,9 +13,7 @@ $third-color: #222222;
 		background-color: #27e193;
 		inset: 0;
 		z-index: 100;
-		// transform: translateY(-20%);
 		animation: RideauFadeIn 1.5s ease-in-out forwards;
-		// animation: RideauFadeIn 30s linear infinite;
 	}
 	&--Dark {
 		&:after {
@@ -37,7 +31,6 @@ $third-color: #222222;
 }
 
 #introTxtContainer {
-	// opacity: 0;
 	animation: OpacityFadeIn 1s ease-in-out forwards;
 }
 @keyframes OpacityFadeIn {
@@ -60,11 +53,6 @@ $third-color: #222222;
 	}
 }
 header {
-	// display: flex;
-	// justify-content: space-between;
-	// padding: 1rem 0;
-	// background: #4f46e5;
-	// color: #fff;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -86,10 +74,6 @@ header {
 	}
 }
 
-// input:checked ~ .dot {
-// 	transform: translateX(100%);
-// 	/* background-color: #132b50; */
-// }
 .svgAbout {
 	width: 40px;
 	margin: 12px;
@@ -156,9 +140,6 @@ header {
 		width: 16px;
 	}
 }
-// .animatedBtnGrp {
-// 	bottom: 2.5rem;
-// }
 
 .linkProject {
 	.arrow-color {
