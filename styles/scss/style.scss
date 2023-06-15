@@ -8,6 +8,44 @@ $third-color: #222222;
 //   color: $primary-color;
 // }
 
+#introImgContainer {
+	position: relative;
+	overflow: hidden;
+	&:after {
+		content: "";
+		position: absolute;
+		background-color: #27e193;
+		inset: 0;
+		z-index: 100;
+		// transform: translateY(-20%);
+		animation: RideauFadeIn 1.5s ease-in-out forwards;
+		// animation: RideauFadeIn 30s linear infinite;
+	}
+}
+@keyframes RideauFadeIn {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+#introTxtContainer {
+	// opacity: 0;
+	animation: OpacityFadeIn 1s ease-in-out forwards;
+}
+@keyframes OpacityFadeIn {
+	0% {
+		transform: translateY(30%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
 .borderNone {
 	.scroll-up & {
 		border: none;
