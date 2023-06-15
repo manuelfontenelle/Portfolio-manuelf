@@ -8,7 +8,7 @@ $third-color: #222222;
 //   color: $primary-color;
 // }
 
-#introImgContainer {
+.introImgContainer {
 	position: relative;
 	overflow: hidden;
 	&:after {
@@ -20,6 +20,11 @@ $third-color: #222222;
 		// transform: translateY(-20%);
 		animation: RideauFadeIn 1.5s ease-in-out forwards;
 		// animation: RideauFadeIn 30s linear infinite;
+	}
+	&--Dark {
+		&:after {
+			background-color: #222222;
+		}
 	}
 }
 @keyframes RideauFadeIn {
