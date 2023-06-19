@@ -313,7 +313,7 @@ const About = () => {
 										</svg>
 									}
 									desc1="The back-end refers to the technical and functional side of a website. Unlike the front-end, the back end takes care of all the back-office part, that is to say the essential elements for the operation of the site, but which are invisible to Internet users."
-									desc2="Like database management or the concept of CRUd (create, read, update, delete)"
+									desc2="Like database management or the concept of CRUD (create, read, update, delete)"
 								/>
 							</div>
 							<div className="boxAnim w-[100%] xl:w-[48%]">
