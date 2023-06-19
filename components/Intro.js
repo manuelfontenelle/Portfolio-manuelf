@@ -39,12 +39,13 @@ const Intro = () => {
 							day.
 							<br />
 							<br />
-							I have a preference for the front-end and in particular for the
-							Html, Css, Javascript languages as well as ReactJs
+							I have a preference for the front-end part and in particular for
+							the Html, Css, Javascript languages as well as ReactJs.
 							<br />
 							<br />
-							I like to create innovative, minimalist and modern websites,
-							intuitive web applications, but also clean and documented code!
+							I like to create innovative, minimalist, optimised and modern
+							websites or web applications. Clean and well-documented code is
+							also very important to me.
 							<br />
 							<br />
 							Do not hesitate to contact me.
