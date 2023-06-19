@@ -24,9 +24,10 @@ const Intro = () => {
 							</span>
 							<br />
 							<br />
-							After a prepa in applied art, I turned to graphic design and web
-							design. I knew right away that I had found my voice. I liked
-							computers and I could put my creativity into images.
+							After a preparation for the applied arts, I started training as a
+							multimedia graphic designer. I knew right away that I had found my
+							voice. I liked computers and I could put my creativity into
+							images.
 							<br />
 							<br />
 							Thereafter, I quickly started to get interested in the code that
@@ -44,8 +45,7 @@ const Intro = () => {
 							<br />
 							<br />
 							I like to create innovative, minimalist, optimised and modern
-							websites or web applications. Clean and well-documented code is
-							also very important to me.
+							websites or web applications with clean and well-documented code.
 							<br />
 							<br />
 							Do not hesitate to contact me.
