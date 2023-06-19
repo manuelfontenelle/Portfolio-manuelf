@@ -254,12 +254,12 @@ const About = () => {
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base texteAnim ">
-							As a Full-stack web developer, I can take care of the complete
-							creation of your website (showcase / e-commerce / portfolio /
-							blog) or web application.
+							As a Full-stack web developer (Front-end and Back-end), I can take
+							care of the complete development of your website (showcase /
+							e-commerce / portfolio / blog) or web application.
 							<br />
 							<br />
-							As a Creative Designer I can also do the UI / Webdesign part of
+							Also, as a Creative Designer I can do the UI / Webdesign part of
 							your project.
 						</div>
 					</div>
