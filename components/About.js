@@ -254,16 +254,14 @@ const About = () => {
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base texteAnim ">
-							As a Fullstack developer, I can take care of the total creation of
-							your website (showcase / ecommerce / portfolio / blog /
-							application).
+							As a Full-stack web developer, I can take care of the complete
+							creation of your website (showcase / ecommerce / portfolio / blog
+							/ application).
 							<br />
+							<br />I will take care of the user experience part on the
+							front-end and database / data management on the back-end.
 							<br />
-							I will take care of the user experience part on the front-end and
-							database / data management on the back-end part.
-							<br />
-							<br />
-							And I am also graphic and web designer ;)
+							<br />I can also take care of the UI / Webdesign part if you want.
 						</div>
 					</div>
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">

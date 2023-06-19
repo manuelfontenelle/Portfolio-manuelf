@@ -19,15 +19,31 @@ const Intro = () => {
 				<div className="container">
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
 						<h3 className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
-							Full stack ReactJs/NodeJs developer from Paris/France, I have been
-							passionate about IT and Design since a very young age.
+							Full-stack ReactJs / NodeJs developer from Paris.
 							<br />
-							<br /> I have a preference for the front-end and in particular for
-							the Html, Css, Javascript languages as well as ReactJS that I can
-							combine with my skills in Graphic / Webdesign. <br />
-							<br /> I like to create innovative, minimalist and modern
-							websites, intuitive web applications, but also clean and
-							documented code! <br />
+							<br />
+							After a prepa in applied art, I turned to graphic design and web
+							design. I knew right away that I had found my voice. I liked
+							computers and I could put my creativity into images.
+							<br />
+							<br />
+							Thereafter, I quickly started to get interested in the code that
+							served to animate my web designs. It became an even more
+							all-consuming passion. So I joined training as a web developer.
+							<br />
+							<br />
+							After obtaining my diploma in 2016, I focused on web development
+							at 100%, my creative spirit remains an advantage that I use every
+							day.
+							<br />
+							<br />
+							I have a preference for the front-end and in particular for the
+							Html, Css, Javascript languages as well as ReactJs
+							<br />
+							<br />
+							I like to create innovative, minimalist and modern websites,
+							intuitive web applications, but also clean and documented code!
+							<br />
 							<br />
 							Do not hesitate to contact me.
 						</h3>
