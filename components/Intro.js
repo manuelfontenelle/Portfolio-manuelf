@@ -18,7 +18,7 @@ const Intro = () => {
 
 				<div className="container">
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
-						<h2 className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
+						<h3 className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
 							Full stack ReactJs/NodeJs developer from Paris/France, I have been
 							passionate about IT and Design since a very young age.
 							<br />
@@ -30,8 +30,8 @@ const Intro = () => {
 							documented code! <br />
 							<br />
 							Do not hesitate to contact me.
-						</h2>
-						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer ">
+						</h3>
+						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer z-20">
 							<Image
 								src={manuImg}
 								className="h-full w-full object-cover rounded-md"

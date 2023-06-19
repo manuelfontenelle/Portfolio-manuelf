@@ -250,7 +250,7 @@ const About = () => {
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase ">
 							<div className="overflow-hidden relative flex items-center justify-start h-8">
-								<span className="titleAnim">About me</span>
+								<h3 className="titleAnim">About me</h3>
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base texteAnim ">
@@ -269,7 +269,7 @@ const About = () => {
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							<div className="overflow-hidden relative flex items-center justify-start h-7">
-								<span className="titleAnim">Here's what i do</span>
+								<h3 className="titleAnim">Here's what i do</h3>
 							</div>
 						</div>
 
@@ -367,7 +367,7 @@ const About = () => {
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] xl:pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							<div className="overflow-hidden relative flex items-center justify-start h-8">
-								<span className="titleAnim">Tools</span>
+								<h3 className="titleAnim">Tools</h3>
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1  competencesGrp">

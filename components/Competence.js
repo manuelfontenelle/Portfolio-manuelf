@@ -7,7 +7,7 @@ const Competence = ({ title, svg, desc1, desc2 }) => {
 				{svg}
 			</div>
 			<div className="">
-				<span className="font-SofiaSans uppercase text-3xl">{title}</span>
+				<h4 className="font-SofiaSans uppercase text-3xl">{title}</h4>
 				<span className=" block  text-sm sm:text-base  font-medium mt-2  text-[#DCDAD9] dark:text-[#222222]">
 					{desc1} <br />
 					<br />
