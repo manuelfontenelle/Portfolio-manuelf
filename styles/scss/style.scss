@@ -4,34 +4,34 @@ $primary-color: #ff7b54;
 $secondary-color: #27e193;
 $third-color: #222222;
 
-.introImgContainer {
-	position: relative;
-	overflow: hidden;
-	&:after {
-		content: "";
-		position: absolute;
-		background-color: #27e193;
-		inset: 0;
-		z-index: 100;
-		animation: RideauFadeIn 1s ease-in-out forwards;
-		transform-origin: top;
-	}
-	&--Dark {
-		&:after {
-			background-color: #222222;
-		}
-	}
-}
-@keyframes RideauFadeIn {
-	0% {
-		transform: scaleY(100%);
-	}
-	100% {
-		transform: scaleY(0);
-	}
-}
+// .introImgContainer {
+// 	position: relative;
+// 	overflow: hidden;
+// 	&:after {
+// 		content: "";
+// 		position: absolute;
+// 		background-color: #27e193;
+// 		inset: 0;
+// 		z-index: 100;
+// 		animation: RideauFadeIn 1s ease-in-out forwards;
+// 		transform-origin: top;
+// 	}
+// 	&--Dark {
+// 		&:after {
+// 			background-color: #222222;
+// 		}
+// 	}
+// }
+// @keyframes RideauFadeIn {
+// 	0% {
+// 		transform: scaleY(100%);
+// 	}
+// 	100% {
+// 		transform: scaleY(0);
+// 	}
+// }
 
-#introTxtContainer {
+.introTxtContainer {
 	animation: OpacityFadeIn 1s ease-in-out forwards;
 }
 @keyframes OpacityFadeIn {

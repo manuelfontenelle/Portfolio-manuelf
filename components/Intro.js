@@ -18,10 +18,7 @@ const Intro = () => {
 
 				<div className="container">
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
-						<div
-							className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9]"
-							id="introTxtContainer"
-						>
+						<h2 className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
 							Full stack ReactJs/NodeJs developer from Paris/France, I have been
 							passionate about IT and Design since a very young age.
 							<br />
@@ -33,21 +30,21 @@ const Intro = () => {
 							documented code! <br />
 							<br />
 							Do not hesitate to contact me.
-						</div>
-						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer dark:hidden">
+						</h2>
+						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer ">
 							<Image
 								src={manuImg}
 								className="h-full w-full object-cover rounded-md"
 								alt="Picture of the author "
 							/>
 						</div>
-						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md  hidden dark:block introImgContainer introImgContainer--Dark">
+						{/* <div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md  hidden dark:block introImgContainer introImgContainer--Dark">
 							<Image
 								src={manuImg}
 								className="h-full w-full object-cover rounded-md"
 								alt="Picture of the author "
 							/>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
