@@ -261,7 +261,8 @@ const About = () => {
 							<br />I will take care of the user experience part on the
 							front-end and database / data management on the back-end.
 							<br />
-							<br />I can also take care of the UI / Webdesign part if you want.
+							<br />I can also take care of the UI / UX / Webdesign part if you
+							want.
 						</div>
 					</div>
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
@@ -335,7 +336,7 @@ const About = () => {
 										</svg>
 									}
 									desc1="CMS is the acronym for Content Management System. It is an online interface through which it is possible to easily manage and modify a website, without the need for technical knowledge of computer language."
-									desc2="Strapi is a platform with many tools that allow flexible use from all frontend frameworks"
+									desc2="Strapi is the next-gen headless CMS, open-source, javascript, managed and exposed to any digital device"
 								/>
 							</div>
 							<div className="boxAnim w-[100%] xl:w-[48%]">
