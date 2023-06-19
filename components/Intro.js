@@ -35,7 +35,7 @@ const Intro = () => {
 							<br />
 							<br />
 							After obtaining my diploma in 2016, I focused on web development
-							at 100%, my creative spirit remains an advantage that I use every
+							at 100%. My creative spirit remains an advantage that I use every
 							day.
 							<br />
 							<br />
