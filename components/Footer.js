@@ -16,12 +16,14 @@ const Footer = () => {
 			<div className="flex flex-col sm:flex-row items-left justify-start md:items-center md:justify-between dark:text-[#222222] text-[#DCDAD9] ">
 				<div className=" flex flex-col sm:flex-row items-left gap-3 sm:gap-5 font-medium  text-xs md:text-sm uppercase font-Inter leading-4">
 					<a
+						target="_blank"
 						href="https://www.linkedin.com/in/manuel-fontenelle-b406b563/"
 						className="hover:text-[#27e193] dark:hover:text-gray-400"
 					>
 						Linkedin
 					</a>
 					<a
+						target="_blank"
 						href="https://github.com/manuelfontenelle"
 						className="hover:text-[#27e193] dark:hover:text-gray-400"
 					>
