@@ -20,35 +20,35 @@ const Intro = () => {
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
 						<h3 className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
 							<span className="font-bold">
-								Full-stack ReactJs / NodeJs web developer from Paris.
+								Full-stack ReactJs/NodeJs web developer from Paris.
 							</span>
 							<br />
 							<br />
-							After a preparation for the applied arts, I started training as a
-							multimedia graphic designer. I knew right away that I had found my
-							voice. I liked computers and I could put my creativity into
-							images.
+							Web Developer for more than 8 years, I specialized in
+							ReactJs/NodeJs and NextJs, I have been passionate about IT and
+							Design since a very young age. Both creative and technical.
 							<br />
 							<br />
-							Thereafter, I quickly started to get interested in the code that
-							served to animate my web designs. It became an even more
-							all-consuming passion. So I joined training as a web developer.
+							Being also a graduate of a License as a Multimedia Graphic
+							Designer since 2012, I have both artistic and technical
+							sensitivity. I can manage the design of a full-fledged graphical
+							interface (UI/UX).
 							<br />
 							<br />
-							After obtaining my diploma in 2016, I focused on web development
-							at 100%. My creative spirit remains an advantage that I use every
-							day.
+							As a Web Developer, I have a preference for the Front-end and in
+							particular for the Html, Css, Javascript languages as well as
+							ReactJS that I can combine with my artistic skills for everything
+							related to animations / interactions on the website.
 							<br />
 							<br />
-							I have a preference for the front-end part and in particular for
-							the Html, Css, Javascript languages as well as ReactJs.
+							I like to create innovative websites, responsive, minimalist and
+							modern. Intuitive web applications, but also a clean code,
+							documented and respecting web standards. I am also attached to SEO
+							and accessibility.
 							<br />
 							<br />
-							I like to create innovative, minimalist, optimised and modern
-							websites or web applications with clean and well-documented code.
-							<br />
-							<br />
-							Do not hesitate to contact me.
+							Do not hesitate to contact me, I will be delighted to discuss with
+							you.
 						</h3>
 						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer z-20">
 							<Image
