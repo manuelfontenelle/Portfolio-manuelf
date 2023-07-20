@@ -37,19 +37,6 @@ const Intro = () => {
 							since 2012, I have both artistic and technical sensitivity. I can
 							manage the design of a full-fledged graphical interface (UI/UX).
 							<br />
-							<br />
-							As a full stack web developer, I have a preference for the
-							Front-end and in particular for the Html, Css, Javascript
-							languages as well as ReactJs that I can combine with my artistic
-							skills for everything related to animation, interaction and
-							experience on the website.
-							<br />
-							<br />
-							I like to create innovative, responsive, minimalist and modern
-							websites. Intuitive web applications, but also a clean code,
-							documented and respecting web standards. I am also attached to
-							SEO, "page speed" score and accessibility.
-							<br />
 							<br />I am driven to help my clients achieve their goals and
 							realize their vision by providing quality work. <br />
 							<br />

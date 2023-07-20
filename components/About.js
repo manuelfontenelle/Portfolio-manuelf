@@ -254,13 +254,16 @@ const About = () => {
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base texteAnim ">
-							As a Full-stack web developer (Front-end and Back-end), I can take
-							care of the complete development of your website (showcase /
-							e-commerce / portfolio / blog) or web application.
+							As a full stack web developer, I have a preference for the
+							Front-end and in particular for the Html, Css, Javascript
+							languages as well as ReactJs that I can combine with my artistic
+							skills for everything related to animation, interaction and
+							experience on the website.
 							<br />
-							<br />
-							Also, as a Creative Designer I can do the UI / Webdesign part of
-							your project.
+							<br />I like to create innovative, responsive, minimalist and
+							modern websites. Intuitive web applications, but also a clean
+							code, documented and respecting web standards. I am also attached
+							to SEO, "page speed" score and accessibility.
 						</div>
 					</div>
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
