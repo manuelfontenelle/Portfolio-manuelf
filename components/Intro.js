@@ -29,10 +29,9 @@ const Intro = () => {
 							Design since a very young age. Both creative and technical.
 							<br />
 							<br />
-							Being also a graduate of a License as a Multimedia Graphic
-							Designer since 2012, I have both artistic and technical
-							sensitivity. I can manage the design of a full-fledged graphical
-							interface (UI/UX).
+							Being a graduate of a License as a Multimedia Graphic Designer
+							since 2012, I have both artistic and technical sensitivity. I can
+							manage the design of a full-fledged graphical interface (UI/UX).
 							<br />
 							<br />
 							As a Web Developer, I have a preference for the Front-end and in
