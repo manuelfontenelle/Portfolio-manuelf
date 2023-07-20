@@ -24,8 +24,8 @@ const Intro = () => {
 							</span>
 							<br />
 							<br />
-							Web Developer for more than 8 years, I specialized in
-							ReactJs/NodeJs and NextJs, I have been passionate about IT and
+							Web developer for more than 8 years, I specialized in
+							ReactJs/NodeJs and NextJs. I have been passionate about IT and
 							Design since a very young age. Both creative and technical.
 							<br />
 							<br />
@@ -34,14 +34,15 @@ const Intro = () => {
 							manage the design of a full-fledged graphical interface (UI/UX).
 							<br />
 							<br />
-							As a Web Developer, I have a preference for the Front-end and in
-							particular for the Html, Css, Javascript languages as well as
-							ReactJS that I can combine with my artistic skills for everything
-							related to animations and interactions on the website.
+							As a full stack web developer, I have a preference for the
+							Front-end and in particular for the Html, Css, Javascript
+							languages as well as ReactJs that I can combine with my artistic
+							skills for everything related to animation, interaction and
+							experience on the website.
 							<br />
 							<br />
-							I like to create innovative websites, responsive, minimalist and
-							modern. Intuitive web applications, but also a clean code,
+							I like to create innovative, responsive, minimalist and modern
+							websites. Intuitive web applications, but also a clean code,
 							documented and respecting web standards. I am also attached to SEO
 							and accessibility.
 							<br />
