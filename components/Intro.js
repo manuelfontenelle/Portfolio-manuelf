@@ -37,7 +37,7 @@ const Intro = () => {
 							As a Web Developer, I have a preference for the Front-end and in
 							particular for the Html, Css, Javascript languages as well as
 							ReactJS that I can combine with my artistic skills for everything
-							related to animations / interactions on the website.
+							related to animations and interactions on the website.
 							<br />
 							<br />
 							I like to create innovative websites, responsive, minimalist and
