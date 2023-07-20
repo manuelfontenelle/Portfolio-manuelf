@@ -24,9 +24,9 @@ const Intro = () => {
 							</span>
 							<br />
 							<br />
-							Web developer for more than 8 years, I specialized in
-							ReactJs/NodeJs and NextJs. I have been passionate about IT and
-							Design since a very young age. Both creative and technical.
+							Passionate and experienced web developer with more than 8 years of
+							experience in the development of websites and web applications, I
+							specialize in ReactJs/NodeJs and NextJs.
 							<br />
 							<br />
 							Being a graduate of a License as a Multimedia Graphic Designer
