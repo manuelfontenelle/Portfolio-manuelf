@@ -35,7 +35,7 @@ const Intro = () => {
 							<br />
 							<br />
 							Being a graduate of a Multimedia Graphic Designer and also
-							Multimedia Web Developer License, I have both artistic and
+							Multimedia Web Developer Licenses, I have both artistic and
 							technical sensitivity. I can manage the design of a complete
 							graphical interface (UI/UX).
 							<br />
