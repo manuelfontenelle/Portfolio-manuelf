@@ -27,7 +27,7 @@ const Intro = () => {
 							Passionate and experienced web developer with more than 8 years of
 							experience in the development of websites and web applications, I
 							specialized in ReactJs/NodeJs and NextJs. During my career, I have
-							worked with many clients in agencie or as a freelancer, and have
+							worked with many clients in agencies or as a freelancer, and have
 							acquired solid technical skills that allow me today to assess the
 							feasibility of a project and to provide you with the best possible
 							support on your web projects.
@@ -48,8 +48,10 @@ const Intro = () => {
 							I like to create innovative, responsive, minimalist and modern
 							websites. Intuitive web applications, but also a clean code,
 							documented and respecting web standards. I am also attached to
-							SEO, page speed and accessibility.
+							Seo, page speed and accessibility.
 							<br />
+							<br />I am driven to help my clients achieve their goals and
+							realize their vision by providing quality work. <br />
 							<br />
 							Do not hesitate to contact me, I will be delighted to discuss with
 							you.
