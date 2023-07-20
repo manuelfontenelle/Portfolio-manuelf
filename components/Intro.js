@@ -26,7 +26,11 @@ const Intro = () => {
 							<br />
 							Passionate and experienced web developer with more than 8 years of
 							experience in the development of websites and web applications, I
-							specialize in ReactJs/NodeJs and NextJs.
+							specialized in ReactJs/NodeJs and NextJs. During my career, I have
+							worked with many clients in agencie or as a freelancer, and have
+							acquired solid technical skills that allow me today to assess the
+							feasibility of a project and to provide you with the best possible
+							support on your web projects.
 							<br />
 							<br />
 							Being a graduate of a License as a Multimedia Graphic Designer
