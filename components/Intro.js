@@ -26,19 +26,22 @@ const Intro = () => {
 							<br />
 							Passionate and experienced web developer with more than 8 years of
 							experience in the development of websites and web applications, I
-							specialized in ReactJs/NodeJs and NextJs. During my career, I have
-							worked with many clients in agency or as a freelancer, and have
-							acquired solid technical skills that allow me today to assess the
-							feasibility of a project and to provide you with the best possible
-							support on your web projects.
+							specialized in ReactJs/NodeJs and NextJs. <br />
+							<br />
+							During my career, I have worked with many clients in agency or as
+							a freelancer, and have acquired solid technical skills that allow
+							me today to assess the feasibility of a project and to provide you
+							with the best possible support on your web projects.
 							<br />
 							<br />
-							Being a graduate of a License as a Multimedia Graphic Designer
-							since 2012, I have both artistic and technical sensitivity. I can
-							manage the design of a full-fledged graphical interface (UI/UX).
+							Being a graduate of a Multimedia Graphic Designer and also
+							Multimedia Web Developer License, I have both artistic and
+							technical sensitivity. I can manage the design of a complete
+							graphical interface (UI/UX).
 							<br />
 							<br />I am driven to help my clients achieve their goals and
-							realize their vision by providing quality work. <br />
+							realize their vision by providing quality work.
+							<br />
 							<br />
 							Do not hesitate to contact me, I will be delighted to discuss with
 							you.
