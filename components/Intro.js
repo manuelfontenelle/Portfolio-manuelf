@@ -59,7 +59,7 @@ const Intro = () => {
 						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer z-20">
 							<Image
 								src={manuImg}
-								className="h-full w-full object-cover rounded-md"
+								className="h-full w-full object-cover object-top rounded-md"
 								alt="Picture of the author "
 							/>
 						</div>
