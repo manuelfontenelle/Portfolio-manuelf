@@ -20,7 +20,7 @@ const Intro = () => {
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
 						<h3 className=" sm:w-[40%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
 							<span className="font-bold">
-								Full stack ReactJs/NodeJs. Creative web developer from Paris.
+								Full stack ReactJs/NodeJs creative web developer from Paris.
 							</span>
 							<br />
 							<br />
