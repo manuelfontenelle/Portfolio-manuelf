@@ -131,8 +131,18 @@ header {
 	width: 19px;
 	height: 100%;
 	fill: #213b86;
+	transition: all 100ms ease-in-out;
 	&-dark {
 		fill: #222222;
+	}
+}
+.roundedContentArrow {
+	&:hover {
+		.svg-arrowProject {
+			-ms-transform: rotate(45deg); /* IE 9 */
+			-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+			transform: rotate(45deg);
+		}
 	}
 }
 .svg-arrow {

@@ -27,10 +27,10 @@ const ProjectSmall = ({ img, linkUrl, marginSpecial }) => {
 						isHovering ? "bottom-10" : "bottom-10 lg:bottom-[-30%]"
 					}`}
 				>
-					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-lg lg:text-2xl flex items-center">
+					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-lg lg:text-2xl flex items-center hover:underline">
 						See more
 					</span>
-					<span className="bg-white rounded-full w-[55px] flex justify-center">
+					<span className="bg-white rounded-full w-[55px] flex justify-center roundedContentArrow">
 						<svg
 							viewBox="0 0 26 25"
 							fill="none"
