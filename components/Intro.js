@@ -48,7 +48,7 @@ const Intro = () => {
 							I like to create innovative, responsive, minimalist and modern
 							websites. Intuitive web applications, but also a clean code,
 							documented and respecting web standards. I am also attached to
-							Seo, page speed and accessibility.
+							SEO, "page speed" score and accessibility.
 							<br />
 							<br />I am driven to help my clients achieve their goals and
 							realize their vision by providing quality work. <br />
