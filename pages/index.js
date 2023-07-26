@@ -41,9 +41,9 @@ export default function Home() {
 				<meta property="og:site_name" content="Manuel Fontenelle" />
 			</Head>
 
-			<main className=" dark:bg-[#222222] bg-[#27e193] overflow-x-hidden ">
+			<main className=" dark:bg-[#222222] bg-[#ffffff] overflow-x-hidden ">
 				<section id="intro" className="pt-14 pb-8 sm:pb-16">
-					<header className="bg-[#27e193] dark:bg-[#222222] pt-5 z-30 ">
+					<header className="bg-[#ffffff] dark:bg-[#222222] pt-5 z-30 ">
 						<div className="container">
 							<NavBar />
 						</div>
@@ -58,7 +58,7 @@ export default function Home() {
 				</section>
 				<section
 					id="Projects"
-					className="pb-24 lg:mb-16 pt-8 md:mb-32 dark:bg-[#222222] bg-[#27e193] "
+					className="pb-24 lg:mb-16 pt-8 md:mb-32 dark:bg-[#222222] bg-[#ffffff] "
 				>
 					<Projects />
 				</section>

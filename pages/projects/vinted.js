@@ -30,9 +30,9 @@ export default function DomaineAventurier() {
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 
-			<main className=" dark:bg-[#DCDAD9] bg-[#27e193] overflow-x-hidden ">
+			<main className=" dark:bg-[#DCDAD9] bg-[#ffffff] overflow-x-hidden ">
 				<section id="introProject" className="pt-14 pb-8  md:pb-16">
-					<header className="bg-[#27e193] dark:bg-[#DCDAD9] pt-5 z-20">
+					<header className="bg-[#ffffff] dark:bg-[#DCDAD9] pt-5 z-20">
 						<div className="container">
 							<NavBar />
 						</div>

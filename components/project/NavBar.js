@@ -67,7 +67,7 @@ const NavBar = () => {
 						/>
 						<label
 							htmlFor="dark-mode-toggle"
-							className="w-full h-full border-[1px] border-[#213B86] dark:border-[#222222] bg-[#27e193] dark:bg-[#DCDAD9] rounded-full p-1 flex justify-between cursor-pointer"
+							className="w-full h-full border-[1px] border-[#213B86] dark:border-[#222222] bg-[#ffffff] dark:bg-[#DCDAD9] rounded-full p-1 flex justify-between cursor-pointer"
 						>
 							<span className="inline dark:hidden">
 								<svg

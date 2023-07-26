@@ -38,9 +38,9 @@ export default function Projects() {
 				<meta property="og:site_name" content="Manuel Fontenelle" />
 			</Head>
 
-			<main className=" dark:bg-[#222222] bg-[#27e193] overflow-x-hidden ">
+			<main className=" dark:bg-[#222222] bg-[#ffffff] overflow-x-hidden ">
 				<section id="intro" className="pt-14 pb-8 ">
-					<header className="bg-[#27e193] dark:bg-[#222222] pt-5 z-30 ">
+					<header className="bg-[#ffffff] dark:bg-[#222222] pt-5 z-30 ">
 						<div className="container">
 							<NavBar />
 						</div>
@@ -49,7 +49,7 @@ export default function Projects() {
 
 				<section
 					id="Projects"
-					className="pb-24 lg:mb-16 md:mb-32 dark:bg-[#222222] bg-[#27e193]"
+					className="pb-24 lg:mb-16 md:mb-32 dark:bg-[#222222] bg-[#ffffff]"
 				>
 					<ProjectsFull />
 				</section>
