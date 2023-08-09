@@ -13,7 +13,7 @@ const NavProject = ({ prevUrl, nextUrl }) => {
 				<div className="container">
 					<div className="flex justify-between h-[135px] md:h-[350px] text-center border-t-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] text-xl uppercase font-regular mt-10 text-[#DCDAD9]  dark:text-[#222222] flex-row">
 						<div className="flex items-center justify-center w-[50%]  border-r-[1px] border-[#DCDAD9] dark:border-[#DCDAD9] ">
-							<a
+							<Link
 								href={prevUrl}
 								className="flex flex-col items-start text-white hover:text-[#27e193] hover:textBorder prevBtnContainer"
 							>
@@ -26,10 +26,10 @@ const NavProject = ({ prevUrl, nextUrl }) => {
 								<span className="font-Inter font-black text-xs md:text-3xl mt-[-5px] md:mt-[-20px] ml-1">
 									Project
 								</span>
-							</a>
+							</Link>
 						</div>
 						<div className="flex items-center justify-center text-center w-[50%]">
-							<a
+							<Link
 								href={nextUrl}
 								className="flex flex-col  items-start text-white hover:text-[#27e193] "
 							>
@@ -40,7 +40,7 @@ const NavProject = ({ prevUrl, nextUrl }) => {
 								<span className="font-Inter font-black text-xs md:text-3xl mt-[-5px] md:mt-[-20px] ml-1">
 									Project
 								</span>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
