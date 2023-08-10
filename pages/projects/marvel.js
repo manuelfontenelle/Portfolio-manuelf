@@ -8,7 +8,7 @@ import About from "../../components/project/About"
 import Gallery from "../../components/project/Gallery"
 import NavProject from "../../components/project/NavProject"
 
-import Footer from "../../components/Footer"
+import Footer from "../../components/project/Footer"
 import BackToTop from "/components/BackToTop"
 import marvel1 from "../../public/projects/marvel1.jpg"
 import marvel2 from "../../public/projects/marvel2.png"

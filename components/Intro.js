@@ -12,7 +12,7 @@ const Intro = () => {
 	return (
 		<>
 			<div>
-				<h2 className="mt-3 font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase  leading-none whitespace-nowrap tracking-[-0.03em] flex justify-start">
+				<h2 className="mt-7 md:mt-3 font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase  leading-none whitespace-nowrap tracking-[-0.03em] flex justify-start">
 					<div className="messageDefilant">
 						{t("home.messageDefilant")}&nbsp;
 					</div>

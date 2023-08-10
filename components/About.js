@@ -249,7 +249,7 @@ const About = () => {
 					</div>
 				</h2>
 				<div className="container">
-					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-7 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase ">
 							<div className="overflow-hidden relative flex items-center justify-start h-8">
 								<h3 className="titleAnim text-2xl">{t("home.aboutMeTitle")}</h3>
@@ -262,7 +262,7 @@ const About = () => {
 							{t("home.aboutMe2")}
 						</div>
 					</div>
-					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-7 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							<div className="overflow-hidden relative flex items-center justify-start h-7">
 								<h3 className="titleAnim text-2xl">
@@ -362,7 +362,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] xl:pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
+					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] xl:pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-7 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							<div className="overflow-hidden relative flex items-center justify-start h-8">
 								<h3 className="titleAnim text-2xl">
