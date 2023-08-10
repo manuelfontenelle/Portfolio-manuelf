@@ -17,7 +17,19 @@ import cigaleConstruction4 from "../../public/projects/cigale-construction4.png"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export default function DomaineAventurier() {
+import { useTranslation } from "next-i18next"
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
+export async function getStaticProps({ locale }) {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["common", "home"])),
+		},
+	}
+}
+
+export default function cigaleConstruction() {
+	const { t } = useTranslation("common")
 	return (
 		<>
 			<Head>
@@ -42,7 +54,7 @@ export default function DomaineAventurier() {
 						descAlt={"Cigale Construction"}
 						objectPosition={""}
 						titreIntro="Cigale Construction"
-						textIntro="General Contractor specializing in the realization of Architectural projects. Located in the greater Montreal area."
+						textIntro={t("common.cigaleConstructionDesc")}
 						urlIntro="cigaleconstruction.ca"
 						urlDetailIntro="https://www.cigaleconstruction.ca/"
 					/>

@@ -14,10 +14,21 @@ import domaineAventurier1 from "../../public/projects/domaine-aventurier1.jpg"
 import domaineAventurier2 from "../../public/projects/domaine-aventurier2.png"
 import domaineAventurier3 from "../../public/projects/domaine-aventurier3.jpg"
 import domaineAventurier4 from "../../public/projects/domaine-aventurier4.png"
-
 const inter = Inter({ subsets: ["latin"] })
 
-export default function DomaineAventurier() {
+import { useTranslation } from "next-i18next"
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
+export async function getStaticProps({ locale }) {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["common", "home"])),
+		},
+	}
+}
+
+export default function domaineAventurier() {
+	const { t } = useTranslation("common")
 	return (
 		<>
 			<Head>
@@ -42,7 +53,7 @@ export default function DomaineAventurier() {
 						descAlt={"Domaine Aventurier"}
 						objectPosition={"objectPositionLeft15"}
 						titreIntro="Domaine Aventurier"
-						textIntro="Domaine Aventurier is a hunting and fishing outfitter in the Hautes Laurentides, in the province of Quebec."
+						textIntro={t("common.domaineAventurierDesc")}
 						urlIntro="domaineaventurier.com"
 						urlDetailIntro="https://domaine-aventurier-i18n.vercel.app/"
 					/>

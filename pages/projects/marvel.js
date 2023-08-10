@@ -17,7 +17,19 @@ import marvel4 from "../../public/projects/marvel4.png"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export default function DomaineAventurier() {
+import { useTranslation } from "next-i18next"
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
+export async function getStaticProps({ locale }) {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["common", "home"])),
+		},
+	}
+}
+
+export default function marvel() {
+	const { t } = useTranslation("common")
 	return (
 		<>
 			<Head>
@@ -42,7 +54,7 @@ export default function DomaineAventurier() {
 						descAlt={"Marvel"}
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marvel Library"
-						textIntro="Full Stack React Js Web App"
+						textIntro={t("common.marvelDesc")}
 						urlIntro="marvel-manuelf.netlify.app"
 						urlDetailIntro="https://marvel-manuelf.netlify.app/"
 					/>

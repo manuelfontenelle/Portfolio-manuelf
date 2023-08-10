@@ -6,8 +6,10 @@ import React, { useState, useEffect } from "react"
 import Competence from "./Competence"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
+import { useTranslation } from "next-i18next"
 
 const About = () => {
+	const { t } = useTranslation("home")
 	useEffect(() => {
 		gsap.registerPlugin(ScrollTrigger)
 
@@ -120,7 +122,7 @@ const About = () => {
 			<div>
 				<h2 className=" flex justify-start items-center font-SofiaSans text-[14.9vw] text-[#DCDAD9] dark:text-[#222222] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]">
 					<div className="messageDefilant">
-						About
+						{t("home.messageDefilant2")}&nbsp;
 						<span className="">
 							<svg
 								width="342"
@@ -162,7 +164,7 @@ const About = () => {
 						</span>
 					</div>
 					<div className="messageDefilant">
-						About
+						{t("home.messageDefilant2")}&nbsp;
 						<span className="">
 							<svg
 								width="342"
@@ -204,7 +206,7 @@ const About = () => {
 						</span>
 					</div>
 					<div className="messageDefilant">
-						About
+						{t("home.messageDefilant2")}&nbsp;
 						<span className="">
 							<svg
 								width="342"
@@ -250,26 +252,22 @@ const About = () => {
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase ">
 							<div className="overflow-hidden relative flex items-center justify-start h-8">
-								<h3 className="titleAnim">About me</h3>
+								<h3 className="titleAnim text-2xl">{t("home.aboutMeTitle")}</h3>
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter font-medium text-sm sm:text-base texteAnim ">
-							As a full stack web developer, I have a preference for the
-							Front-end and in particular for the Html, Css, Javascript
-							languages as well as ReactJs that I can combine with my artistic
-							skills for everything related to animation, interaction and
-							experience on the website.
+							{t("home.aboutMe1")}
 							<br />
-							<br />I like to create innovative, responsive, minimalist and
-							modern websites. Intuitive web applications, but also a clean
-							code, documented and respecting web standards. I am also attached
-							to SEO, "page speed" score and accessibility.
+							<br />
+							{t("home.aboutMe2")}
 						</div>
 					</div>
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222]  pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							<div className="overflow-hidden relative flex items-center justify-start h-7">
-								<h3 className="titleAnim">Here's what i do</h3>
+								<h3 className="titleAnim text-2xl">
+									{t("home.aboutMeTitle2")}
+								</h3>
 							</div>
 						</div>
 
@@ -292,8 +290,8 @@ const About = () => {
 											/>
 										</svg>
 									}
-									desc1="The Front-End corresponds to all the part of the code that will be executed in the web browser, namely all of the interface and its functionalities."
-									desc2="The Front-End developer is responsible for the architecture of the web application and the logical implementation of its functionalities."
+									desc1={t("home.competence1")}
+									desc2={t("home.competence1-2")}
 								/>
 							</div>
 							<div className="boxAnim w-[100%] xl:w-[48%]">
@@ -314,8 +312,8 @@ const About = () => {
 											/>
 										</svg>
 									}
-									desc1="The back-end refers to the technical and functional side of a website. Unlike the front-end, the back end takes care of all the back-office part, that is to say the essential elements for the operation of the site, but which are invisible to Internet users."
-									desc2="Like database management or the concept of CRUD (create, read, update, delete)"
+									desc1={t("home.competence2")}
+									desc2={t("home.competence2-2")}
 								/>
 							</div>
 							<div className="boxAnim w-[100%] xl:w-[48%]">
@@ -336,8 +334,8 @@ const About = () => {
 											/>
 										</svg>
 									}
-									desc1="CMS is the acronym for Content Management System. It is an online interface through which it is possible to easily manage and modify a website, without the need for technical knowledge of computer language."
-									desc2="Strapi is the next-gen headless CMS, open-source, javascript, managed and exposed to any digital device"
+									desc1={t("home.competence3")}
+									desc2={t("home.competence3-2")}
 								/>
 							</div>
 							<div className="boxAnim w-[100%] xl:w-[48%]">
@@ -358,8 +356,8 @@ const About = () => {
 											/>
 										</svg>
 									}
-									desc1="UI is short for user interface. The mission of the UI designer is to create a web interface that is graphically pleasing and easy to learn."
-									desc2="UX refers to the overall quality of interactions between the user and the site or app. It is determined by technical, practical and emotional aspects. The quality of the user experience on a site requires significant design work."
+									desc1={t("home.competence4")}
+									desc2={t("home.competence4-2")}
 								/>
 							</div>
 						</div>
@@ -367,7 +365,9 @@ const About = () => {
 					<div className="flex justify-between border-t-[1px] border-[#DCDAD9] dark:border-[#222222] xl:pb-14 pt-4 mt-5 text-[#DCDAD9]  dark:text-[#222222] flex-col sm:flex-row gap-10 sm:gap-0">
 						<div className=" sm:w-[48%] font-SofiaSans text-xl uppercase">
 							<div className="overflow-hidden relative flex items-center justify-start h-8">
-								<h3 className="titleAnim">Tools</h3>
+								<h3 className="titleAnim text-2xl">
+									{t("home.aboutMeTitle3")}
+								</h3>
 							</div>
 						</div>
 						<div className=" sm:w-[48%]  font-Inter  font-bold  text-3xl sm:text-5xl flex flex-col sm:gap-1  competencesGrp">

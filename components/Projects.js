@@ -12,14 +12,16 @@ import vintedImg from "../public/previews/vinted.jpg"
 import marcFontenelleImg from "../public/previews/marc-fontenelle.jpg"
 import cigaleConstructionImg from "../public/previews/cigale-construction.jpg"
 import marvelImg from "../public/previews/marvel.jpg"
+import { useTranslation } from "next-i18next"
 
 const Projects = () => {
+	const { t } = useTranslation("home")
 	return (
 		<>
 			<div>
 				<h2 className=" flex justify-start items-center font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase ml-[0%] leading-none whitespace-nowrap tracking-[-0.03em]">
 					<div className="messageDefilant">
-						Projects
+						{t("home.navProject")}
 						<span className="">
 							<svg
 								width="342"
@@ -61,7 +63,7 @@ const Projects = () => {
 						</span>
 					</div>
 					<div className="messageDefilant">
-						Projects
+						{t("home.navProject")}
 						<span className="">
 							<svg
 								width="342"
@@ -103,7 +105,7 @@ const Projects = () => {
 						</span>
 					</div>
 					<div className="messageDefilant">
-						Projects
+						{t("home.navProject")}
 						<span className="">
 							<svg
 								width="342"
@@ -180,7 +182,7 @@ const Projects = () => {
 								href="/projects"
 								className="font-SofiaSans underline linkProjects flex justify-center items-center leading-1 absolute mt-6 text-[#213b86] dark:text-[#DCDAD9]  font-black text-2xl leading-tight uppercase  hover:text-[#101d43] hover:dark:text-gray-400 focus:text-[#101d43] focus:dark:text-gray-400 active:text-[#101d43]"
 							>
-								See all projects
+								{t("home.seeAll")}
 								<span className="">
 									<svg
 										viewBox="0 0 26 25"

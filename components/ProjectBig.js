@@ -3,12 +3,13 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
+import { useTranslation } from "next-i18next"
 
 const ProjectBig = ({ img, linkUrl }) => {
 	const [isHovering, setIsHovered] = useState(false) //false
 	const onMouseEnter = () => setIsHovered(true)
 	const onMouseLeave = () => setIsHovered(false) //false
-
+	const { t } = useTranslation("home")
 	return (
 		<>
 			<Link
@@ -28,7 +29,7 @@ const ProjectBig = ({ img, linkUrl }) => {
 					}`}
 				>
 					<span className="bg-white rounded-2xl px-5 py-3 text-[#213b86] dark:text-[#222222] font-SofiaSans uppercase text-lg lg:text-2xl flex items-center hover:underline">
-						See more
+						{t("home.seeMore")}
 					</span>
 					<span className="bg-white rounded-full w-[55px] flex justify-center roundedContentArrow">
 						<svg

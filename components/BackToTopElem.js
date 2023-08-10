@@ -1,9 +1,10 @@
 import React from "react"
-
+import { useTranslation } from "next-i18next"
 const BackToTopElem = () => {
+	const { t } = useTranslation("home")
 	return (
 		<div className="flex justify-start whitespace-nowrap">
-			Back to top
+			{t("home.backToTop")}
 			<span className="">
 				<svg
 					width="45"

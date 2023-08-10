@@ -10,13 +10,26 @@ import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import BackToTop from "../components/BackToTop"
 
+import { useTranslation } from "next-i18next"
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
+export async function getStaticProps({ locale }) {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["home", "common"])),
+		},
+	}
+}
 const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
+	const { t } = useTranslation("home")
 	return (
 		<>
 			<Head>
-				<title>Manuel Fontenelle | Développeur Full-stack ReactJs/NodeJs</title>
+				<title>
+					Manuel Fontenelle | Développeur web Full-stack ReactJs/NodeJs
+				</title>
 				<meta
 					name="description"
 					content="Manuel Fontenelle | Développeur Full-stack ReactJs/NodeJs"

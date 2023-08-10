@@ -7,8 +7,9 @@ import React, { useState, useEffect } from "react"
 function darkModeListener() {
 	document.documentElement.classList.toggle("dark")
 }
-
+import { useTranslation } from "next-i18next"
 const NavBar = () => {
+	const { t } = useTranslation("home")
 	useEffect(() => {
 		const body = document.body
 		const header = document.querySelector("header")
@@ -120,7 +121,7 @@ const NavBar = () => {
 						href="/projects"
 						className="uppercase font-extrabold  text-base"
 					>
-						Projects
+						{t("home.navProject")}
 					</Link>
 				</div>
 			</div>

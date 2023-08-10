@@ -3,8 +3,10 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
+import { useTranslation } from "next-i18next"
 
 const Footer = () => {
+	const { t } = useTranslation("home")
 	useEffect(() => {}, [])
 
 	const getYear = () => {
@@ -35,7 +37,7 @@ const Footer = () => {
 						alt="cv manuel fontenelle"
 						className="hover:text-[#27e193] dark:hover:text-gray-400"
 					>
-						Resume
+						{t("home.footerResume")}
 					</a>
 
 					{/* <a

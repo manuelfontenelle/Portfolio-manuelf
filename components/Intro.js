@@ -4,47 +4,48 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 import manuImg from "../public/manuelfontenelle.jpg"
+import { useTranslation } from "next-i18next"
 const Intro = () => {
+	const { t } = useTranslation("home")
 	useEffect(() => {}, [])
 
 	return (
 		<>
 			<div>
 				<h2 className="mt-3 font-SofiaSans text-[14.9vw] text-[#213B86] dark:text-[#DCDAD9] uppercase  leading-none whitespace-nowrap tracking-[-0.03em] flex justify-start">
-					<div className="messageDefilant">Web developer &nbsp;</div>
-					<div className="messageDefilant">Web developer &nbsp;</div>
-					<div className="messageDefilant">Web developer &nbsp;</div>
+					<div className="messageDefilant">
+						{t("home.messageDefilant")}&nbsp;
+					</div>
+					<div className="messageDefilant">
+						{t("home.messageDefilant")}&nbsp;
+					</div>
+					<div className="messageDefilant">
+						{t("home.messageDefilant")}&nbsp;
+					</div>
 				</h2>
 
 				<div className="container">
 					<div className="flex justify-between mt-[3vh] flex-col sm:flex-row gap-10 sm:gap-0">
 						<h3 className=" sm:w-[41%]  font-Inter text-sm sm:text-lg  font-medium text-[#213B86]  dark:text-[#DCDAD9] introTxtContainer dark:introTxtContainer">
 							<span className="font-bold">
-								Full stack ReactJs/NodeJs creative web developer from Paris.
+								{t("home.intro")}
+								{/* Full stack ReactJs/NodeJs creative web developer from Paris. */}
 							</span>
 							<br />
 							<br />
-							Passionate and experienced web developer with more than 8 years of
-							experience in the development of websites and web applications, I
-							specialized in ReactJs/NodeJs and NextJs. <br />
-							<br />
-							During my career, I have worked with many clients in agency or as
-							a freelancer, and have acquired solid technical skills that allow
-							me today to assess the feasibility of a project and to provide you
-							with the best possible support on your web projects.
+							{t("home.intro2")}
 							<br />
 							<br />
-							Being a graduate of a Multimedia Graphic Designer and also
-							Multimedia Web Developer Licenses, I have both artistic and
-							technical sensitivity. I can manage the design of a complete
-							graphical interface (UI/UX).
-							<br />
-							<br />I am driven to help my clients achieve their goals and
-							realize their vision by providing quality work.
+							{t("home.intro3")}
 							<br />
 							<br />
-							Do not hesitate to contact me, I will be delighted to discuss with
-							you.
+							{t("home.intro4")}
+							<br />
+							<br />
+							{t("home.intro5")}
+							<br />
+							<br />
+							{t("home.intro6")}
 						</h3>
 						<div className="bg-slate-200 h-[500px] sm:w-[48%]  md:h-[750px] rounded-md introImgContainer z-20">
 							<Image

@@ -2,8 +2,9 @@ import React from "react"
 import { useState } from "react"
 import axios from "axios"
 import { ThreeDots } from "react-loader-spinner"
-
+import { useTranslation } from "next-i18next"
 const Formulaire = () => {
+	const { t } = useTranslation("home")
 	const [prenom, setPrenom] = useState("")
 	const [nom, setNom] = useState("")
 	const [phone, setPhone] = useState("")
@@ -91,7 +92,7 @@ const Formulaire = () => {
 										focus:text-[#DCDAD9] dark:focus:dark:text-[#222222] focus:border-[#1CCBAD] focus:dark:border-[#222222] focus:shadow-none"
 								id="exampleInput123"
 								aria-describedby="emailHelp123"
-								placeholder="First Name"
+								placeholder={t("home.formFirstName")}
 								onChange={(e) => setPrenom(e.target.value)}
 							/>
 						</div>
@@ -108,7 +109,7 @@ const Formulaire = () => {
 								focus:text-[#DCDAD9] dark:focus:dark:text-[#222222] focus:border-[#1CCBAD] focus:dark:border-[#222222] focus:shadow-none"
 								id="exampleInput124"
 								aria-describedby="emailHelp124"
-								placeholder="Last Name"
+								placeholder={t("home.formLastName")}
 								onChange={(e) => setNom(e.target.value)}
 							/>
 						</div>
@@ -126,7 +127,7 @@ const Formulaire = () => {
           focus:px-2 
 										focus:text-[#DCDAD9] dark:focus:dark:text-[#222222] focus:border-[#1CCBAD] focus:dark:border-[#222222] focus:shadow-none"
 							id="exampleTel0"
-							placeholder="Phone"
+							placeholder={t("home.formPhone")}
 							onChange={(e) => setPhone(e.target.value)}
 						/>
 					</div>
@@ -187,7 +188,7 @@ const Formulaire = () => {
      active:text-[#1CCBAD] 
   btn-form"
 					>
-						Submit
+						{t("home.formSubmit")}
 						<span className="">
 							<svg
 								viewBox="0 0 26 25"

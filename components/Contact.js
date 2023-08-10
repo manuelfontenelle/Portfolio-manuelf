@@ -4,8 +4,10 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useState, useEffect } from "react"
 import Formulaire from "./Formulaire"
+import { useTranslation } from "next-i18next"
 
 const Contact = () => {
+	const { t } = useTranslation("home")
 	useEffect(() => {
 		const nuages = document.querySelector(".cloud")
 		const wrapper = document.querySelector("#Contact")
@@ -1063,11 +1065,10 @@ const Contact = () => {
 					</div>
 					<div className="sm:w-[48%] text-[#DCDAD9] dark:text-[#222222] ">
 						<h3 className="font-SofiaSans text-4xl lg:text-5xl uppercase tracking-[-0.03em] ">
-							YOU HAVE A PROJECT OR WANT TO COLLABORATE?
+							{t("home.contactTitle")}
 						</h3>
 						<p className="font-Inter font-medium mt-2 text-sm sm:text-base ">
-							Do not hesitate to contact me via this form, I will not fail to
-							answer you as soon as possible.
+							{t("home.contactDesc")}
 						</p>
 						<Formulaire />
 					</div>
