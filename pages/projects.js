@@ -12,7 +12,7 @@ import BackToTop from "../components/BackToTop"
 
 const inter = Inter({ subsets: ["latin"] })
 
-import { useTranslation } from "next-i18next"
+// import { useTranslation } from "next-i18next"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 
 export async function getStaticProps({ locale }) {
@@ -24,7 +24,7 @@ export async function getStaticProps({ locale }) {
 }
 
 export default function Projects() {
-	const { t } = useTranslation("home")
+	// const { t } = useTranslation("home")
 	return (
 		<>
 			<Head>
