@@ -55,8 +55,8 @@ export default function marcFontenelle() {
 						objectPosition={"objectPositionLeft27"}
 						titreIntro="Marc Fontenelle"
 						textIntro={t("common.marcFontenelleDesc")}
-						urlIntro="marc-fontenelle.com"
-						urlDetailIntro="https://marc-fontenelle.com/"
+						urlIntro="marcfontenelle.com"
+						urlDetailIntro="https://marcfontenelle.com/"
 					/>
 				</section>
 				<section
